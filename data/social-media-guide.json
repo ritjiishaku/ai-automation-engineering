@@ -28,7 +28,8 @@
         "cloud-devops": ["#DevOps", "#CloudComputing", "#AWS", "#Docker", "#Kubernetes", "#100DaysOfCode"],
         "fintech": ["#FinTech", "#Blockchain", "#DeFi", "#AlgorithmicTrading", "#100DaysOfCode"],
         "growth": ["#GrowthEngineering", "#Analytics", "#Marketing", "#SEO", "#100DaysOfCode"],
-        "green-tech": ["#ClimateTech", "#GreenTech", "#Sustainability", "#CleanEnergy", "#100DaysOfCode"]
+        "green-tech": ["#ClimateTech", "#GreenTech", "#Sustainability", "#CleanEnergy", "#100DaysOfCode"],
+        "ai-automation": ["#AIAutomation", "#n8n", "#WorkflowAutomation", "#LLM", "#NoCode", "#100DaysOfCode"]
       },
       "tips": [
         "Post consistently (2-3 times per week minimum)",
@@ -66,7 +67,8 @@
         "cloud-devops": ["#DevOps", "#CloudArchitecture", "#AWS", "#Azure", "#TechCareers"],
         "fintech": ["#FinTech", "#FinancialServices", "#Innovation", "#TechCareers", "#DigitalTransformation"],
         "growth": ["#GrowthMarketing", "#DigitalMarketing", "#Analytics", "#TechCareers", "#Innovation"],
-        "green-tech": ["#CleanTech", "#Sustainability", "#ClimateAction", "#GreenInnovation", "#TechForGood"]
+        "green-tech": ["#CleanTech", "#Sustainability", "#ClimateAction", "#GreenInnovation", "#TechForGood"],
+        "ai-automation": ["#AIAutomation", "#WorkflowAutomation", "#NoCode", "#LLMs", "#TechCareers"]
       },
       "tips": [
         "Write longer, storytelling posts",
@@ -444,6 +446,21 @@
         "Sustainability solution demo",
         "Carbon tracking tool",
         "Climate data insight"
+      ]
+    },
+    "ai-automation": {
+      "recommendedPlatforms": ["twitter", "linkedin", "github"],
+      "uniqueAngles": [
+        "AI workflow automation",
+        "n8n and no-code AI solutions",
+        "Multi-agent system builds",
+        "RAG and knowledge assistants"
+      ],
+      "postIdeas": [
+        "n8n workflow showcase",
+        "AI agent demo",
+        "RAG system walkthrough",
+        "Automation before/after comparison"
       ]
     }
   }

@@ -1,6 +1,6 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import ThemeToggle from './ThemeToggle';
 import { useModal } from '../context/ModalContext';
 import ContactForm from './ContactForm';
@@ -81,6 +81,11 @@ const HOME_ICONS = {
       <path d="M12 16v-4" />
     </svg>
   ),
+  'ai-automation': (
+    <svg className="home-card-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+      <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" />
+    </svg>
+  ),
 };
 
 import { TITLE_MAP as titleMap } from '@/lib/roadmaps';
@@ -88,7 +93,6 @@ import { TITLE_MAP as titleMap } from '@/lib/roadmaps';
 import { HOME_REQ_ICONS as REQ_ICONS } from '@/lib/req-icons';
 
 export default function HomePage({ roadmapsMeta }) {
-  const router = useRouter();
   const { openProject } = useModal();
 
   const groupedByCategory = REQUIREMENT_CATEGORIES.map((cat) => ({
@@ -97,7 +101,7 @@ export default function HomePage({ roadmapsMeta }) {
   })).filter((g) => g.roadmaps.length > 0);
 
   return (
-    <main className="home">
+    <main className="home" id="main-content">
       <ThemeToggle className="home-theme-toggle" />
       <section className="home-hero">
         <div className="home-hero-badge">
@@ -114,7 +118,7 @@ export default function HomePage({ roadmapsMeta }) {
           No paywalls. Work remotely from anywhere.
         </p>
         <div className="home-hero-stats">
-          <span>10 roadmaps</span>
+          <span>11 roadmaps</span>
           <span className="home-card-dot">·</span>
           <span>130+ modules</span>
           <span className="home-card-dot">·</span>
@@ -158,11 +162,10 @@ export default function HomePage({ roadmapsMeta }) {
               const wef = ROADMAP_WEF_MAP[r.id];
               const req = ROADMAP_REQUIREMENTS[r.id];
               return (
-                <a
+                <Link
                   key={r.id}
                   className="home-card"
                   href={`/${r.id}`}
-                  onClick={(e) => { e.preventDefault(); router.push(`/${r.id}`); }}
                 >
                   {wef && (
                     <div className="home-card-wef">
@@ -187,7 +190,7 @@ export default function HomePage({ roadmapsMeta }) {
                       <span className="home-card-req-certs">{req.certs.length} cert{req.certs.length > 1 ? 's' : ''}</span>
                     )}
                   </div>
-                </a>
+                </Link>
               );
             })}
           </div>

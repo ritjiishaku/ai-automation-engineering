@@ -79,6 +79,7 @@ export const ROADMAP_REQUIREMENTS = {
     degree: 'not-required',
     degreeNote: 'Skills-first field. Competitive, so certs can help you stand out. Strong projects and published work matter most.',
     certs: [
+      { name: 'Claude Certified Architect – Foundations (CCA-F)', cost: '$125', priority: 'medium', url: 'https://www.anthropic.com/certification', note: '60Q / 120 min / 720 pass / 12-mo validity · Requires Anthropic Partner Network registration — not open enrollment' },
       { name: 'AWS Certified AI Practitioner', cost: '$100', priority: 'medium', url: 'https://aws.amazon.com/certification/certified-ai-practitioner/' },
       { name: 'Google Professional ML Engineer', cost: '$200', priority: 'medium', url: 'https://cloud.google.com/learn/certification/machine-learning-engineer' },
     ],
@@ -143,6 +144,14 @@ export const ROADMAP_REQUIREMENTS = {
       { name: 'CISSP', cost: '$749', priority: 'senior', url: 'https://www.isc2.org/Certifications/CISSP' },
     ],
     portfolio: 'helpful',
+    experience: 'important',
+  },
+  'ai-automation': {
+    category: 'projects-certs',
+    degree: 'not-required',
+    degreeNote: 'Skills-first field. Practical automation experience and deployed workflows matter most. Employers want to see what you can build, not where you learned.',
+    certs: [],
+    portfolio: 'critical',
     experience: 'important',
   },
 };

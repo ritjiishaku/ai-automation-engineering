@@ -109,4 +109,12 @@ export const ROADMAP_WEF_MAP = {
     skillDemand: 'Top 15 — Triple Role',
     note: 'Three WEF top-15 roles + #10 fastest-growing skill (Environmental Stewardship)',
   },
+  'ai-automation': {
+    wefRank: 7,
+    wefRole: 'Automation and Robotics Specialist',
+    altRank: 3,
+    altRole: 'AI and Machine Learning Specialist',
+    skillDemand: 'Top 7 — Automation + AI',
+    note: 'Combines AI engineering with business automation — two of the fastest-growing WEF categories',
+  },
 };

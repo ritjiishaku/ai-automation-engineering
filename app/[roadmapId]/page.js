@@ -15,6 +15,7 @@ const dataImports = {
   'cloud-devops': () => import('@/data/cloud-devops.json'),
   fintech: () => import('@/data/fintech.json'),
   'green-tech': () => import('@/data/green-tech.json'),
+  'ai-automation': () => import('@/data/ai-automation.json'),
 };
 
 export function generateStaticParams() {
@@ -32,6 +33,7 @@ const titleMap = {
   fintech: 'Fintech Engineering',
   growth: 'Growth Engineering',
   'green-tech': 'Green Tech / Climate Tech Engineering',
+  'ai-automation': 'AI Automation Engineering (Intensive)',
 };
 
 export async function generateMetadata({ params }) {
@@ -39,7 +41,7 @@ export async function generateMetadata({ params }) {
   if (!ROADMAP_IDS.includes(roadmapId)) return {};
   const title = titleMap[roadmapId] || roadmapId;
 
-  let resources = '100+';
+  let resources = '120+';
   try {
     const importer = dataImports[roadmapId];
     if (importer) {

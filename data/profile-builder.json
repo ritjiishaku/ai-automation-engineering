@@ -289,6 +289,34 @@
       "recommendedPlatforms": ["linkedin", "twitter"],
       "bannerTips": "Use nature imagery, sustainability graphics, or environmental data visualizations.",
       "profilePictureTips": "Professional headshot with green or nature elements."
+    },
+    "ai-automation": {
+      "title": "AI Automation Engineer",
+      "bioTemplates": {
+        "twitter": "Aspiring AI Automation Engineer | Building workflows with n8n & LLMs | Learning {topics} | {timeline} journey",
+        "linkedin": "AI Automation Engineer in training | Building real-world AI workflows | Learning {topics} | Passionate about automation",
+        "github": "Aspiring AI Automation Engineer | Building n8n workflows, RAG systems & multi-agent AI"
+      },
+      "profileKeywords": [
+        "AI Automation",
+        "n8n",
+        "LLMs",
+        "Workflow Automation",
+        "RAG",
+        "Multi-Agent Systems",
+        "No-Code AI",
+        "OpenAI"
+      ],
+      "contentPillars": [
+        "AI workflow automation tutorials",
+        "n8n and no-code AI solutions",
+        "Multi-agent system builds",
+        "RAG and knowledge assistant demos",
+        "Automation before/after comparisons"
+      ],
+      "recommendedPlatforms": ["twitter", "linkedin", "github"],
+      "bannerTips": "Use images of AI workflows, automation diagrams, or n8n screenshots. Keep it technical and clean.",
+      "profilePictureTips": "Professional headshot or stylized avatar with automation/AI elements."
     }
   },
   "profileOptimization": {

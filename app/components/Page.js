@@ -72,13 +72,16 @@ export default function RoadmapPage({ data, roadmapId }) {
           <div className="wef-ranking-banner">
             <div className="wef-ranking-header">
               <div className="wef-ranking-badge">
+                <span className="wef-ranking-label">WEF Primary Role</span>
                 <span className="wef-ranking-number">#{wef.wefRank}</span>
                 <span className="wef-ranking-text">{wef.wefRole}</span>
               </div>
-              <span className="wef-ranking-context">WEF Fastest Growing Role by 2030</span>
+              <span className="wef-ranking-context">Fastest-Growing Role by 2030</span>
               {wef.altRank && (
                 <div className="wef-ranking-alt">
-                  <span className="wef-alt-badge">Also #{wef.altRank} {wef.altRole}</span>
+                  <span className="wef-alt-badge">
+                    <span className="wef-alt-label">Secondary Role</span> #{wef.altRank} {wef.altRole}
+                  </span>
                 </div>
               )}
             </div>
@@ -159,9 +162,11 @@ export default function RoadmapPage({ data, roadmapId }) {
                       </a>
                       <span className="req-cert-cost">{cert.cost}</span>
                       <span className={`req-cert-priority priority-${cert.priority}`}>{cert.priority}</span>
+                      {cert.note && <span className="req-cert-note">{cert.note}</span>}
                     </div>
                   ))}
                 </div>
+                <p className="req-certs-verified">Last verified: July 2026</p>
               </div>
             )}
           </div>
@@ -187,6 +192,45 @@ export default function RoadmapPage({ data, roadmapId }) {
           </div>
         ))}
       </main>
+
+      {data.portfolioChecklist && data.portfolioChecklist.length > 0 && (
+        <section className="portfolio-checklist-section">
+          <div className="portfolio-checklist-header">
+            <div className="portfolio-checklist-glow"></div>
+            <div className="portfolio-checklist-eyebrow">
+              <div className="portfolio-checklist-badge">Portfolio Project Checklist</div>
+              <span className="portfolio-checklist-sub">Build these 3 projects to prove job/client readiness</span>
+            </div>
+          </div>
+          <div className="portfolio-checklist-grid">
+            {data.portfolioChecklist.map((item, i) => (
+              <div key={i} className="portfolio-checklist-card">
+                <div className="portfolio-checklist-card-header">
+                  <span className="portfolio-checklist-number">{i + 1}</span>
+                  <h4 className="portfolio-checklist-title">{item.title}</h4>
+                </div>
+                <p className="portfolio-checklist-desc">{item.description}</p>
+                <div className="portfolio-checklist-criteria">
+                  <span className="portfolio-checklist-label">Build Requirements</span>
+                  <ul>
+                    {item.criteria.map((c, j) => (
+                      <li key={j}>{c}</li>
+                    ))}
+                  </ul>
+                </div>
+                <div className="portfolio-checklist-proof">
+                  <span className="portfolio-checklist-label">Proof Points</span>
+                  <ul>
+                    {item.proofPoints.map((p, j) => (
+                      <li key={j}>{p}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       {data.projects && (
         <section className="proj-capstone-section">

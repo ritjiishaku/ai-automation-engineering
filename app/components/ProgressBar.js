@@ -6,8 +6,7 @@ export default function ProgressBar({ completed = 0, total = 0 }) {
   const percent = total > 0 ? Math.round((completed / total) * 100) : 0;
 
   useEffect(() => {
-    const el = document.getElementById('progress-percent');
-    if (el) el.textContent = `${percent}%`;
+    window.dispatchEvent(new CustomEvent('progress-update', { detail: { percent } }));
   }, [percent]);
 
   return (<>

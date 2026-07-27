@@ -9,6 +9,7 @@ import cloudDevopsData from '@/data/cloud-devops.json';
 import fintechData from '@/data/fintech.json';
 import growthData from '@/data/growth.json';
 import greenTechData from '@/data/green-tech.json';
+import aiAutomationData from '@/data/ai-automation.json';
 import { ROADMAP_WEF_MAP } from '@/data/wef-rankings';
 
 const roadmapsMeta = [
@@ -22,6 +23,7 @@ const roadmapsMeta = [
   { id: 'fintech', meta: fintechData.meta, phaseCount: fintechData.phases.length },
   { id: 'growth', meta: growthData.meta, phaseCount: growthData.phases.length },
   { id: 'green-tech', meta: greenTechData.meta, phaseCount: greenTechData.phases.length },
+  { id: 'ai-automation', meta: aiAutomationData.meta, phaseCount: aiAutomationData.phases.length },
 ].sort((a, b) => {
   const rankA = ROADMAP_WEF_MAP[a.id]?.wefRank ?? 99;
   const rankB = ROADMAP_WEF_MAP[b.id]?.wefRank ?? 99;
@@ -43,7 +45,7 @@ const jsonLd = {
 
 export const metadata = {
   title: 'Skillplan — Free Roadmaps to Your Next Career',
-  description: '9 skills-first roadmaps aligned to the WEF Future of Jobs Report 2025. AI, Full-Stack, Frontend, Backend, Cybersecurity, Data, Cloud/DevOps, Fintech, and Growth Engineering — all free, no degree needed, remote-ready.',
+  description: '11 free, skills-first roadmaps aligned to the WEF Future of Jobs Report 2025. No degrees needed. Remote-ready.',
   alternates: { canonical: 'https://ritji.xyz' },
 };
 

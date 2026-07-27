@@ -1,0 +1,544 @@
+{
+  "banner": "Intensive Course · 8 Modules · Hands-On Practicals · Real-World Projects",
+  "titleDisplay": "AI Automation<br><em>Engineering</em><br><small>Intensive Course</small>",
+  "subtitle": "Structured for intensive learning and real-world application. 8 modules covering AI fundamentals, n8n workflows, RAG systems, API agents, multi-agent systems, deployment, and a capstone hackathon. Built for speed — no filler, just skills.",
+  "meta": {
+    "duration": "8–12 mo",
+    "cost": "$0",
+    "resources": "40+",
+    "salaryTarget": "$120k+"
+  },
+  "phases": [
+    {
+      "number": "01",
+      "badge": "badge-foundation",
+      "badgeLabel": "Foundation",
+      "title": "Foundations of AI Automation Engineering",
+      "duration": "Weeks 1–4",
+      "modules": [
+        {
+          "icon": "brain",
+          "accentClass": "a2",
+          "title": "AI Automation Fundamentals",
+          "topics": [
+            "What AI automation engineering really means in practice",
+            "Key concepts: LLMs, AI automations, AI agents",
+            "How APIs work (client–server model)",
+            "How APIs power real-world automations",
+            "OpenAI API fundamentals: pricing, project setup, usage management, compliance",
+            "Function calling in LLMs (how AI executes structured tasks)",
+            "Vector databases, embeddings, and RAG",
+            "Overview of automation tools: n8n, Zapier, Make, Flowise, LangChain, CrewAI",
+            "Prompt engineering basics for automation workflows"
+          ],
+          "resources": [
+            {
+              "icon": "book-open",
+              "name": "Write automation-ready prompts",
+              "meta": "Practical · Craft prompts that produce structured, reliable AI outputs",
+              "url": "https://platform.openai.com/docs/guides/prompt-engineering"
+            },
+            {
+              "icon": "terminal",
+              "name": "Call the OpenAI API for a structured task",
+              "meta": "Practical · Make your first API call and parse the response",
+              "url": "https://platform.openai.com/docs/api-reference"
+            },
+            {
+              "icon": "play",
+              "name": "Build your first Zapier automation",
+              "meta": "Practical · Connect two apps with a triggered workflow",
+              "url": "https://zapier.com/learn"
+            },
+            {
+              "icon": "users",
+              "name": "Live onboarding walkthrough using real business scenarios",
+              "meta": "Practical · Instructor-led walkthrough of real automation use cases",
+              "url": "https://docs.n8n.io/"
+            }
+          ]
+        }
+      ],
+      "socialMediaGuide": {
+        "milestonePost": "Completed Phase 1: Foundations of AI Automation Engineering! Now I understand LLMs, APIs, function calling, and the automation tool landscape.",
+        "whatToPost": [
+          "Share what AI automation engineering means to you",
+          "Post about your first API call or Zapier automation",
+          "Explain a concept you learned (LLMs, function calling, RAG)"
+        ],
+        "suggestedHashtags": ["#AIAutomation", "#LLM", "#OpenAI", "#Zapier", "#100DaysOfCode"]
+      }
+    },
+    {
+      "number": "02",
+      "badge": "badge-core",
+      "badgeLabel": "Core",
+      "title": "n8n & Core Automation Workflows",
+      "duration": "Weeks 5–8",
+      "modules": [
+        {
+          "icon": "workflow",
+          "accentClass": "a3",
+          "title": "n8n Workflow Mastery",
+          "topics": [
+            "Setting up your AI automation environment",
+            "What n8n is and why it's used for advanced automations",
+            "Navigating the n8n interface",
+            "Understanding triggers, actions, and conditions",
+            "Integrating LLMs into workflows",
+            "Updating and managing n8n instances",
+            "Understanding cloud vs self-hosted setups"
+          ],
+          "resources": [
+            {
+              "icon": "book-open",
+              "name": "Build your first n8n workflow step by step",
+              "meta": "Practical · Create a linear workflow with triggers and actions",
+              "url": "https://docs.n8n.io/quickstart/"
+            },
+            {
+              "icon": "terminal",
+              "name": "Automate email summarisation using GPT",
+              "meta": "Practical · Connect OpenAI to email processing in n8n",
+              "url": "https://docs.n8n.io/integrations/builtin/app-nodes/n8n-nodes-base.openai/"
+            },
+            {
+              "icon": "play",
+              "name": "Build a Flowise workflow for simple AI automation",
+              "meta": "Practical · Use Flowise to create a drag-and-drop AI workflow",
+              "url": "https://docs.flowiseai.com/"
+            },
+            {
+              "icon": "server",
+              "name": "Self-host n8n on a VPS (guided walkthrough)",
+              "meta": "Practical · Deploy n8n on your own server for full control",
+              "url": "https://docs.n8n.io/hosting/"
+            }
+          ]
+        }
+      ],
+      "socialMediaGuide": {
+        "milestonePost": "Completed Phase 2: n8n & Core Automation Workflows! I can now build production-grade automation workflows and integrate LLMs.",
+        "whatToPost": [
+          "Share a screenshot of your first n8n workflow",
+          "Explain the difference between triggers, actions, and conditions",
+          "Post about self-hosting n8n vs using cloud"
+        ],
+        "suggestedHashtags": ["#n8n", "#WorkflowAutomation", "#NoCode", "#AI", "#100DaysOfCode"]
+      }
+    },
+    {
+      "number": "03",
+      "badge": "badge-intermediate",
+      "badgeLabel": "Intermediate",
+      "title": "Document Search, Memory & RAG Systems",
+      "duration": "Weeks 9–12",
+      "modules": [
+        {
+          "icon": "database",
+          "accentClass": "a4",
+          "title": "RAG & AI Memory Systems",
+          "topics": [
+            "What Retrieval-Augmented Generation (RAG) is",
+            "Embeddings and vector databases (ChromaDB, FAISS)",
+            "Chunking and indexing documents",
+            "Teaching LLMs your own data",
+            "Adding memory to AI workflows",
+            "Managing context in follow-up conversations"
+          ],
+          "resources": [
+            {
+              "icon": "book-open",
+              "name": "Build an AI knowledge assistant",
+              "meta": "Practical · Create a RAG system that answers questions from your documents",
+              "url": "https://docs.flowiseai.com/integrations/langchain/rag"
+            },
+            {
+              "icon": "terminal",
+              "name": "Train AI on internal company documents",
+              "meta": "Practical · Index and retrieve from real business documents",
+              "url": "https://docs.trychroma.com/"
+            },
+            {
+              "icon": "play",
+              "name": "Create a document search system using Flowise, Airtable, n8n",
+              "meta": "Practical · Build an end-to-end document search pipeline",
+              "url": "https://docs.flowiseai.com/"
+            },
+            {
+              "icon": "users",
+              "name": "Live case study: internal policy assistant",
+              "meta": "Practical · Build a policy Q&A system for a simulated company",
+              "url": "https://docs.n8n.io/"
+            }
+          ]
+        }
+      ],
+      "socialMediaGuide": {
+        "milestonePost": "Completed Phase 3: Document Search, Memory & RAG Systems! I can now teach LLMs my own data and build knowledge assistants.",
+        "whatToPost": [
+          "Explain RAG in simple terms",
+          "Share your experience building a document search system",
+          "Post about chunking strategies and why they matter"
+        ],
+        "suggestedHashtags": ["#RAG", "#VectorDB", "#ChromaDB", "#LangChain", "#100DaysOfCode"]
+      }
+    },
+    {
+      "number": "04",
+      "badge": "badge-advanced",
+      "badgeLabel": "Advanced",
+      "title": "Advanced Automation with APIs & AI Agents",
+      "duration": "Weeks 13–16",
+      "modules": [
+        {
+          "icon": "plug",
+          "accentClass": "a5",
+          "title": "API-Driven AI Agents",
+          "topics": [
+            "Multi-step automation logic",
+            "Branching, conditions, and retries",
+            "Connecting AI agents to external APIs: Google Sheets, CRMs, Slack, Notion",
+            "Authentication, rate limits, and security basics",
+            "AI agents calling APIs via function calling",
+            "Error handling in production systems"
+          ],
+          "resources": [
+            {
+              "icon": "book-open",
+              "name": "Build an advanced AI automation in n8n",
+              "meta": "Practical · Create a multi-step workflow with branching and error handling",
+              "url": "https://docs.n8n.io/workflows/"
+            },
+            {
+              "icon": "terminal",
+              "name": "Connect multiple tools and APIs",
+              "meta": "Practical · Integrate Google Sheets, Slack, and a CRM in one workflow",
+              "url": "https://docs.n8n.io/integrations/"
+            },
+            {
+              "icon": "play",
+              "name": "Implement retry logic and failure handling",
+              "meta": "Practical · Add resilience to your automation workflows",
+              "url": "https://docs.n8n.io/workflows/errors/"
+            },
+            {
+              "icon": "users",
+              "name": "Live advanced automation case study",
+              "meta": "Practical · Build a real-world multi-API automation",
+              "url": "https://docs.n8n.io/"
+            }
+          ]
+        }
+      ],
+      "socialMediaGuide": {
+        "milestonePost": "Completed Phase 4: Advanced Automation with APIs & AI Agents! I can now connect AI to external services and handle production complexity.",
+        "whatToPost": [
+          "Share a multi-API workflow you built",
+          "Explain how function calling works in practice",
+          "Post about error handling lessons learned"
+        ],
+        "suggestedHashtags": ["#AIAgents", "#APIs", "#FunctionCalling", "#n8n", "#100DaysOfCode"]
+      }
+    },
+    {
+      "number": "05",
+      "badge": "badge-expert",
+      "badgeLabel": "Expert",
+      "title": "Multi-Agent Systems & Reasoning Workflows",
+      "duration": "Weeks 17–20",
+      "modules": [
+        {
+          "icon": "users",
+          "accentClass": "a6",
+          "title": "Multi-Agent Orchestration",
+          "topics": [
+            "What multi-agent systems are",
+            "Role-based agents: Planner, Researcher, Coder, Reporter",
+            "Coordination and delegation between agents",
+            "Using LangGraph and CrewAI",
+            "Managing task handoffs and conversations",
+            "Integrating tools into agent workflows"
+          ],
+          "resources": [
+            {
+              "icon": "book-open",
+              "name": "Build a multi-agent AI system",
+              "meta": "Practical · Create a team of AI agents working together",
+              "url": "https://docs.crewai.com/"
+            },
+            {
+              "icon": "terminal",
+              "name": "Assign roles and responsibilities to agents",
+              "meta": "Practical · Define agent roles and orchestrate their collaboration",
+              "url": "https://docs.crewai.com/concepts/agents"
+            },
+            {
+              "icon": "play",
+              "name": "Design reasoning workflows with LangGraph",
+              "meta": "Practical · Build stateful, multi-step reasoning pipelines",
+              "url": "https://langchain-ai.github.io/langgraph/"
+            },
+            {
+              "icon": "users",
+              "name": "Live multi-agent system build",
+              "meta": "Practical · Build and demonstrate a multi-agent system in real-time",
+              "url": "https://docs.crewai.com/"
+            }
+          ]
+        }
+      ],
+      "socialMediaGuide": {
+        "milestonePost": "Completed Phase 5: Multi-Agent Systems & Reasoning Workflows! I can now build teams of AI agents that collaborate on complex tasks.",
+        "whatToPost": [
+          "Explain the difference between single-agent and multi-agent systems",
+          "Share your multi-agent build experience",
+          "Post about LangGraph vs CrewAI — when to use which"
+        ],
+        "suggestedHashtags": ["#MultiAgent", "#CrewAI", "#LangGraph", "#AIAgents", "#100DaysOfCode"]
+      }
+    },
+    {
+      "number": "06",
+      "badge": "badge-mastery",
+      "badgeLabel": "Mastery",
+      "title": "Deployment, Monetisation & AI Business Applications",
+      "duration": "Weeks 21–24",
+      "modules": [
+        {
+          "icon": "rocket",
+          "accentClass": "a7",
+          "title": "Deploy & Monetise AI Solutions",
+          "topics": [
+            "Deployment options: Streamlit, Gradio, Telegram, WhatsApp",
+            "Integrating AI agents into business workflows",
+            "Monitoring and updating deployed agents",
+            "Monetisation models for AI automation services",
+            "Packaging AI solutions for clients",
+            "Building a professional AI automation portfolio"
+          ],
+          "resources": [
+            {
+              "icon": "book-open",
+              "name": "Deploy an AI agent to a real platform",
+              "meta": "Practical · Ship your AI agent to Streamlit, Gradio, or a messaging platform",
+              "url": "https://docs.streamlit.io/"
+            },
+            {
+              "icon": "terminal",
+              "name": "Monitor usage and performance",
+              "meta": "Practical · Set up logging, metrics, and alerting for your agents",
+              "url": "https://docs.gradio.app/"
+            },
+            {
+              "icon": "play",
+              "name": "Design a monetisation plan for an AI service",
+              "meta": "Practical · Create pricing tiers, value propositions, and go-to-market strategy",
+              "url": "https://telegram.org/"
+            },
+            {
+              "icon": "award",
+              "name": "Create a portfolio-ready AI automation project",
+              "meta": "Practical · Build a polished project for your GitHub and resume",
+              "url": "https://github.com/"
+            }
+          ]
+        }
+      ],
+      "socialMediaGuide": {
+        "milestonePost": "Completed Phase 6: Deployment, Monetisation & AI Business Applications! I can now ship AI solutions and turn them into real business value.",
+        "whatToPost": [
+          "Share your deployed AI agent (screenshot or demo link)",
+          "Post about your monetisation strategy",
+          "Share lessons learned about packaging AI for clients"
+        ],
+        "suggestedHashtags": ["#AIDeployment", "#Streamlit", "#Gradio", "#Monetisation", "#100DaysOfCode"]
+      }
+    },
+    {
+      "number": "07",
+      "badge": "badge-career",
+      "badgeLabel": "Capstone",
+      "title": "Capstone Project — Design & Build",
+      "duration": "Weeks 25–30",
+      "modules": [
+        {
+          "icon": "trophy",
+          "accentClass": "a8",
+          "title": "AI Automation Hackathon — Part 1",
+          "topics": [
+            "Identify a real-world automation problem",
+            "Design full AI system architecture",
+            "Build LLM logic, memory, and API integrations",
+            "Implement multi-agent workflows",
+            "Hackathon-style intensive build"
+          ],
+          "resources": [
+            {
+              "icon": "book-open",
+              "name": "Define your problem and system architecture",
+              "meta": "Practical · Document the problem, target users, and technical design",
+              "url": "https://docs.n8n.io/"
+            },
+            {
+              "icon": "terminal",
+              "name": "Build core LLM logic and API integrations",
+              "meta": "Practical · Implement the core AI pipeline with function calling",
+              "url": "https://platform.openai.com/docs/guides/function-calling"
+            },
+            {
+              "icon": "play",
+              "name": "Implement multi-agent workflows and memory",
+              "meta": "Practical · Wire up agent orchestration and state management",
+              "url": "https://docs.crewai.com/"
+            },
+            {
+              "icon": "users",
+              "name": "Instructor reviews and refinements",
+              "meta": "Practical · Get feedback on your architecture and implementation",
+              "url": "https://docs.flowiseai.com/"
+            }
+          ]
+        }
+      ],
+      "socialMediaGuide": {
+        "milestonePost": "Building my capstone AI automation project! Hackathon mode activated — solving a real problem with LLMs, agents, and APIs.",
+        "whatToPost": [
+          "Share the problem you chose to solve",
+          "Post about your system architecture decisions",
+          "Share a work-in-progress demo or screenshot"
+        ],
+        "suggestedHashtags": ["#Capstone", "#AIHackathon", "#BuildInPublic", "#AIAutomation", "#100DaysOfCode"]
+      }
+    },
+    {
+      "number": "08",
+      "badge": "badge-career",
+      "badgeLabel": "Capstone",
+      "title": "Capstone Project — Deploy & Present",
+      "duration": "Weeks 31–36",
+      "modules": [
+        {
+          "icon": "presentation",
+          "accentClass": "a9",
+          "title": "AI Automation Hackathon — Part 2",
+          "topics": [
+            "Deploy and monitor your solution in production",
+            "Prepare documentation and walkthrough",
+            "Create a demo video presentation",
+            "Iterate based on real-world usage data"
+          ],
+          "resources": [
+            {
+              "icon": "book-open",
+              "name": "Deploy your capstone project to production",
+              "meta": "Practical · Ship to Streamlit, Gradio, or a messaging platform",
+              "url": "https://docs.streamlit.io/"
+            },
+            {
+              "icon": "terminal",
+              "name": "Write documentation and create a walkthrough",
+              "meta": "Practical · Document setup, architecture, and usage for your project",
+              "url": "https://docs.github.com/en/repositories"
+            },
+            {
+              "icon": "play",
+              "name": "Record and present your final demo",
+              "meta": "Practical · Create a polished demo video and present to instructors",
+              "url": "https://www.loom.com/"
+            },
+            {
+              "icon": "award",
+              "name": "Final deliverables: deployed system, docs, portfolio project",
+              "meta": "Practical · Complete your fully deployed AI automation system",
+              "url": "https://github.com/"
+            }
+          ]
+        }
+      ],
+      "socialMediaGuide": {
+        "milestonePost": "Capstone complete! I built, deployed, and presented a full AI automation system — from problem to production.",
+        "whatToPost": [
+          "Share your final demo video or link",
+          "Post about what you built and what you learned",
+          "Celebrate completing the intensive course!"
+        ],
+        "suggestedHashtags": ["#CapstoneComplete", "#AIAutomation", "#DemoDay", "#100DaysOfCode", "#BuildInPublic"]
+      }
+    }
+  ],
+  "portfolioChecklist": [
+    {
+      "title": "End-to-End AI Automation",
+      "icon": "zap",
+      "description": "A complete AI automation workflow that solves a real problem from start to finish.",
+      "criteria": [
+        "Uses LLMs for core intelligence (OpenAI, Claude, or open-source)",
+        "Integrates with at least 2 external APIs or services",
+        "Includes error handling and retry logic",
+        "Deployed and accessible (not just local)"
+      ],
+      "proofPoints": [
+        "Live deployed URL or demo video",
+        "GitHub repository with clean code and README",
+        "Screenshot or recording of the workflow in action"
+      ]
+    },
+    {
+      "title": "Multi-Agent System",
+      "icon": "users",
+      "description": "A working multi-agent system where AI agents collaborate on a complex task.",
+      "criteria": [
+        "Uses at least 2 distinct agent roles (e.g., planner, researcher, coder)",
+        "Agents coordinate and delegate tasks",
+        "Includes tool integration (APIs, databases, file systems)",
+        "Demonstrates reasoning and decision-making"
+      ],
+      "proofPoints": [
+        "Architecture diagram showing agent interactions",
+        "Working demo with agent communication logs",
+        "Documentation explaining agent roles and workflow"
+      ]
+    },
+    {
+      "title": "RAG-Powered Knowledge System",
+      "icon": "database",
+      "description": "A retrieval-augmented generation system that answers questions from custom data.",
+      "criteria": [
+        "Indexes and retrieves from a custom document set",
+        "Uses embeddings and vector storage (ChromaDB, FAISS, or similar)",
+        "Produces accurate, grounded responses from retrieved context",
+        "Includes a user-facing interface (chat, search, or API)"
+      ],
+      "proofPoints": [
+        "Demo showing question-answering over custom documents",
+        "Code showing chunking, embedding, and retrieval pipeline",
+        "Example queries and responses demonstrating accuracy"
+      ]
+    }
+  ],
+  "projects": {
+    "general": {
+      "title": "AI Automation Capstone — Full-Stack Automation System",
+      "desc": "Identify a real-world automation problem, design the full AI system architecture, build LLM logic, memory, APIs, multi-agent workflows, deploy and monitor your solution, and prepare documentation and demo video.",
+      "skills": [
+        "Problem identification and requirements gathering",
+        "AI system architecture design",
+        "LLM integration with function calling",
+        "Multi-agent orchestration with CrewAI or LangGraph",
+        "Vector database and RAG implementation",
+        "Production deployment and monitoring",
+        "Technical documentation and presentation"
+      ],
+      "stack": [
+        "Python",
+        "OpenAI API",
+        "n8n",
+        "CrewAI or LangGraph",
+        "ChromaDB",
+        "Streamlit or Gradio",
+        "Docker"
+      ]
+    }
+  }
+}

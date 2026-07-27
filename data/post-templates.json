@@ -230,6 +230,15 @@
         "projectDescription": "A sustainability tool that {projectFunction}.",
         "lessons": "This project taught me about {lesson1}, {lesson2}, and {lesson3} in climate tech."
       }
+    },
+    "ai-automation": {
+      "journey-start": {
+        "reason": "I want to build AI-powered automation workflows using n8n, LLMs, and multi-agent systems that solve real-world business problems."
+      },
+      "project-showcase": {
+        "projectDescription": "An AI automation system that {projectFunction}.",
+        "lessons": "This project taught me about {lesson1}, {lesson2}, and {lesson3} in AI automation engineering."
+      }
     }
   }
 }

@@ -178,6 +178,12 @@
               "name": "Learn Git Branching (Interactive)",
               "meta": "learngitbranching.js.org · Visual, hands-on Git mastery",
               "url": "https://learngitbranching.js.org"
+            },
+            {
+              "icon": "graduation-cap",
+              "name": "Google AI Professional Certificate",
+              "meta": "Coursera · $49/mo · SUPPLEMENTARY — general AI fluency, not automation-specific",
+              "url": "https://www.coursera.org/professional-certificates/google-ai"
             }
           ],
           "projects": {
@@ -998,6 +1004,12 @@
               "name": "ChatGPT Prompt Engineering for Developers",
               "meta": "DeepLearning.AI + OpenAI · 90 min · Free",
               "url": "https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/"
+            },
+            {
+              "icon": "alert-triangle",
+              "name": "That's Embarrassing — Hallucination & Interpretability",
+              "meta": "freeCodeCamp · Free · 30 min · REQUIRED — critical for healthcare/high-stakes automation",
+              "url": "https://www.freecodecamp.org/news/that-s-embarrassing-why-frontier-ai-still-makes-things-up-and-what-to-do-about-it/"
             }
           ],
           "projects": {
@@ -1323,7 +1335,10 @@
             "OpenAI prompt caching — automatic for prompts > 1024 tokens",
             "When to use caching vs. RAG vs. fine-tuning for repeated context",
             "Semantic caching with GPTCache for similar queries",
-            "Cost-quality trade-off framework — Haiku vs Sonnet vs Opus"
+            "Cost-quality trade-off framework — Haiku vs Sonnet vs Opus",
+            "Token pricing comparison across Claude, GPT-4, Gemini, Llama",
+            "Batch API discounts: Anthropic 50%, OpenAI 50% for async workloads",
+            "Context window sizing: when to truncate, summarise, or use long-context"
           ],
           "resources": [
             {
@@ -1343,6 +1358,18 @@
               "name": "GPTCache — Semantic Cache Library",
               "meta": "github.com/zilliztech/GPTCache · Open-source semantic caching",
               "url": "https://github.com/zilliztech/GPTCache"
+            },
+            {
+              "icon": "dollar-sign",
+              "name": "Anthropic Batch Processing Docs",
+              "meta": "docs.anthropic.com · 50% cost reduction for async workloads",
+              "url": "https://docs.anthropic.com/en/docs/build-with-claude/batch-processing"
+            },
+            {
+              "icon": "calculator",
+              "name": "LLM Price Comparison — Artificial Analysis",
+              "meta": "artificialanalysis.ai · Real-time pricing across all major models",
+              "url": "https://artificialanalysis.ai/leaderboards/pricing"
             }
           ],
           "projects": {
@@ -1677,7 +1704,10 @@
             "Benchmark design: accuracy, faithfulness, latency",
             "LLM-as-judge evaluation patterns",
             "Regression testing AI outputs",
-            "Cost optimization & token budgeting"
+            "Cost optimization & token budgeting",
+            "Hallucination detection: factual grounding, citation verification",
+            "Output validation with Pydantic schemas and guardrails",
+            "Prompt regression testing: A/B prompt variants, quality tracking"
           ],
           "resources": [
             {
@@ -1697,6 +1727,18 @@
               "name": "DeepEval — LLM Testing Framework Docs",
               "meta": "confident-ai.com · Open-source LLM evaluation",
               "url": "https://docs.confident-ai.com"
+            },
+            {
+              "icon": "shield",
+              "name": "Inspect — UK AISI Evals Framework",
+              "meta": "github.com/UKGovernmentBEIS/inspect · Open-source LLM evaluation toolkit",
+              "url": "https://github.com/UKGovernmentBEIS/inspect-evals"
+            },
+            {
+              "icon": "microscope",
+              "name": "LangSmith — Prompt Hub & Evaluation",
+              "meta": "smith.langchain.com · Prompt versioning, A/B testing, quality tracking",
+              "url": "https://smith.langchain.com"
             }
           ],
           "projects": {
@@ -2853,6 +2895,48 @@
               "name": "Sam Witteveen — LangGraph Agents Explained",
               "meta": "YouTube · Practical agent implementation walkthrough",
               "url": "https://www.youtube.com/watch?v=Vh-p9Qfbm-8"
+            },
+            {
+              "icon": "graduation-cap",
+              "name": "Anthropic Academy — Introduction to Agent Skills",
+              "meta": "Free · Official Anthropic course on agent skill design",
+              "url": "https://anthropic.skilljar.com/"
+            },
+            {
+              "icon": "graduation-cap",
+              "name": "Anthropic Academy — Introduction to MCP",
+              "meta": "Free · Model Context Protocol fundamentals",
+              "url": "https://anthropic.skilljar.com/"
+            },
+            {
+              "icon": "graduation-cap",
+              "name": "Anthropic Academy — MCP Advanced Topics",
+              "meta": "Free · Advanced MCP patterns and tool design",
+              "url": "https://anthropic.skilljar.com/"
+            },
+            {
+              "icon": "graduation-cap",
+              "name": "Anthropic Academy — Claude Code 101",
+              "meta": "Free · Getting started with Claude Code for agentic coding",
+              "url": "https://anthropic.skilljar.com/"
+            },
+            {
+              "icon": "graduation-cap",
+              "name": "Anthropic Academy — Claude Code in Action",
+              "meta": "Free · Practical Claude Code workflows and patterns",
+              "url": "https://anthropic.skilljar.com/"
+            },
+            {
+              "icon": "graduation-cap",
+              "name": "Anthropic Academy — Subagents",
+              "meta": "Free · Building and orchestrating subagent systems",
+              "url": "https://anthropic.skilljar.com/"
+            },
+            {
+              "icon": "play",
+              "name": "freeCodeCamp — TRAE IDE Multi-Agent Tutorial",
+              "meta": "YouTube · Free · 20 min · Building multi-agent systems in TRAE IDE",
+              "url": "https://www.youtube.com/watch?v=B9w4zTfCQqI"
             }
           ],
           "projects": {
@@ -3071,7 +3155,10 @@
             "Jailbreaking patterns and systematic defense strategies",
             "OWASP Top 10 for LLM Applications (2025)",
             "RAG data poisoning and document-level attacks",
-            "Red-teaming your systems with Garak vulnerability scanner"
+            "Red-teaming your systems with Garak vulnerability scanner",
+            "Tool-permission scoping: least-privilege access for agent tools",
+            "Credential handling: API keys, DB tokens, payment credentials for agents",
+            "Secure agent patterns: email, database, and payment system access"
           ],
           "resources": [
             {
@@ -3097,6 +3184,18 @@
               "name": "LLM Security by Johann Rehberger",
               "meta": "embracethered.com · Free research blog on LLM attacks",
               "url": "https://embracethered.com/blog/"
+            },
+            {
+              "icon": "lock",
+              "name": "Anthropic — Tool Use Safety Best Practices",
+              "meta": "docs.anthropic.com · Securing tool calls, permission scoping, credential isolation",
+              "url": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use/safety"
+            },
+            {
+              "icon": "key",
+              "name": "OWASP — Agentic AI Security Guidelines",
+              "meta": "owasp.org · Emerging guidelines for agent credential handling and tool permissions",
+              "url": "https://owasp.org/www-project-agentic-security/"
             }
           ],
           "projects": {
@@ -4226,7 +4325,11 @@
             "LLM tracing with OpenTelemetry",
             "Latency, cost, and quality dashboards",
             "Alerting on quality degradation",
-            "A/B testing prompt versions in production"
+            "A/B testing prompt versions in production",
+            "Production logging: structured logs, audit trails, HIPAA-ready logging",
+            "Monitoring n8n workflows: error handling, retry logic, dead-letter queues",
+            "Agent observability: tool call tracing, reasoning chain logging",
+            "Alerting patterns: Slack/PagerDuty integration, quality threshold alerts"
           ],
           "resources": [
             {
@@ -4252,6 +4355,18 @@
               "name": "MLflow — Experiment Tracking",
               "meta": "GitHub · Open-source ML lifecycle management",
               "url": "https://github.com/mlflow/mlflow"
+            },
+            {
+              "icon": "activity",
+              "name": "Helicone — LLM Observability Platform",
+              "meta": "helicone.com · Proxy-based logging, cost tracking, rate limiting",
+              "url": "https://docs.helicone.ai"
+            },
+            {
+              "icon": "bell",
+              "name": "n8n Error Handling & Debugging Docs",
+              "meta": "docs.n8n.io · Production workflow monitoring, error workflows, alerting",
+              "url": "https://docs.n8n.io/error-handling/"
             }
           ],
           "projects": {
@@ -6209,6 +6324,12 @@
               "name": "HIMSS — Health Informatics Career Resources",
               "meta": "himss.org · Healthcare IT & AI career community, free resources",
               "url": "https://www.himss.org/resources"
+            },
+            {
+              "icon": "play",
+              "name": "freeCodeCamp — CCA-F Exam Prep (13hr)",
+              "meta": "YouTube · Free · Full Anthropic Certified Architect Foundations prep course — usable without sitting the exam",
+              "url": "https://www.youtube.com/watch?v=reDRM0tqhNs"
             }
           ],
           "projects": {
@@ -6420,7 +6541,10 @@
             "Pricing models: hourly vs. project vs. retainer for AI consulting",
             "ROI framing for healthcare AI — quantifying time savings & error reduction",
             "Statement of work template for AI automation projects",
-            "Managing client expectations around AI hallucinations & limitations"
+            "Managing client expectations around AI hallucinations & limitations",
+            "Proposal writing: problem framing, solution design, deliverables",
+            "Client communication: progress updates, risk escalation, scope changes",
+            "Contract basics: IP ownership, liability, NDA considerations for AI work"
           ],
           "resources": [
             {
@@ -6440,6 +6564,18 @@
               "name": "Paul Graham — How to Get Consulting Clients",
               "meta": "paulgraham.com/wealth.html · Timeless consulting advice",
               "url": "http://paulgraham.com/wealth.html"
+            },
+            {
+              "icon": "dollar-sign",
+              "name": "Indie Hackers — AI Freelancing Playbook",
+              "meta": "indiehackers.com · Community-sourced pricing and client acquisition strategies",
+              "url": "https://www.indiehackers.com"
+            },
+            {
+              "icon": "file-text",
+              "name": "Bonsai — Freelance Contract Templates",
+              "meta": "hellobonsai.com · Free contract and proposal templates for freelancers",
+              "url": "https://www.hellobonsai.com/templates"
             }
           ],
           "projects": {
@@ -6848,6 +6984,59 @@
           "#AI"
         ]
       }
+    }
+  ],
+  "portfolioChecklist": [
+    {
+      "title": "RAG Application",
+      "icon": "search",
+      "description": "Build a complete Retrieval-Augmented Generation system that ingests documents, chunks and embeds them, and answers questions with cited sources.",
+      "criteria": [
+        "Document ingestion pipeline (PDF, Markdown, HTML)",
+        "Chunking strategy with overlap and metadata",
+        "Vector search with hybrid BM25 + dense retrieval",
+        "Answer generation with source citations",
+        "Evaluation with RAGAS faithfulness + relevancy scores"
+      ],
+      "proofPoints": [
+        "Deployed endpoint or live demo",
+        "Eval scores documented (faithfulness > 0.8)",
+        "GitHub repo with README and architecture diagram"
+      ]
+    },
+    {
+      "title": "Multi-Agent Workflow",
+      "icon": "users",
+      "description": "Build a multi-agent system where specialised agents collaborate to complete a complex task — with supervisor coordination, shared memory, and human approval.",
+      "criteria": [
+        "3+ specialised agents with distinct roles",
+        "Supervisor/orchestrator pattern",
+        "Shared memory or state across agents",
+        "Human-in-the-loop approval checkpoint",
+        "Error handling and agent fallback logic"
+      ],
+      "proofPoints": [
+        "Working demo with observable agent reasoning",
+        "Langfuse or similar trace logging",
+        "Published case study or blog post"
+      ]
+    },
+    {
+      "title": "n8n Automation with Error Handling",
+      "icon": "tool",
+      "description": "Build a production-grade n8n workflow that integrates an LLM with external services — with proper error handling, retry logic, and monitoring.",
+      "criteria": [
+        "LLM integration node (API call or custom node)",
+        "External service integration (Slack, email, database, etc.)",
+        "Error workflow with retry and dead-letter handling",
+        "Credential management (environment variables, not hardcoded)",
+        "Logging and alerting on failure"
+      ],
+      "proofPoints": [
+        "Running in production or self-hosted n8n instance",
+        "Error handling tested with intentional failures",
+        "Documentation with workflow diagram"
+      ]
     }
   ],
   "projects": {

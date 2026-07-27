@@ -24,10 +24,10 @@ const dmMono = DM_Mono({
 export const metadata = {
   metadataBase: new URL('https://ritji.xyz'),
   title: 'Skillplan \u2014 Free Roadmaps to Your Next Career',
-  description: '9 skills-first roadmaps aligned to the WEF Future of Jobs Report 2025. AI, Full-Stack, Frontend, Backend, Cybersecurity, Data, Cloud/DevOps, Fintech, and Growth Engineering \u2014 all free, no degree needed, remote-ready.',
+  description: '11 free, skills-first roadmaps aligned to the WEF Future of Jobs Report 2025. No degrees needed. Remote-ready.',
   openGraph: {
     title: 'Skillplan \u2014 Free Roadmaps to Your Next Career',
-    description: '9 skills-first roadmaps aligned to the WEF Future of Jobs Report 2025. All free, no degree needed, remote-ready.',
+    description: '11 free, skills-first roadmaps aligned to the WEF Future of Jobs Report 2025. No degrees needed. Remote-ready.',
     url: 'https://ritji.xyz',
     siteName: 'Skillplan',
     images: [{ url: '/og-image.png', width: 1200, height: 630 }],
@@ -37,12 +37,18 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Skillplan \u2014 Free Roadmaps to Your Next Career',
-    description: '9 skills-first roadmaps aligned to the WEF Future of Jobs Report 2025. All free, no degree needed, remote-ready.',
+    description: '11 free, skills-first roadmaps aligned to the WEF Future of Jobs Report 2025. No degrees needed. Remote-ready.',
     images: ['/og-image.png'],
   },
   icons: {
     icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%23e8ff47'/><text x='16' y='22' font-size='18' text-anchor='middle' fill='%23000'>SP</text></svg>",
   },
+};
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#1a1a2e',
 };
 
 const personJsonLd = {
@@ -70,9 +76,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${syne.variable} ${dmMono.variable}`} suppressHydrationWarning>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="Ritji Ishaku" />
-        <meta name="theme-color" content="#1a1a2e" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}

@@ -14,6 +14,7 @@ export default function StickyNav() {
   const menuRef = useRef(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const [activePhase, setActivePhase] = useState(null);
+  const [navPercent, setNavPercent] = useState(0);
 
   const roadmaps = ROADMAP_LIST.filter((r) => r.id !== 'green-tech');
   const phaseCounts = PHASE_COUNTS;
@@ -77,6 +78,12 @@ export default function StickyNav() {
     return () => document.removeEventListener('keydown', handleKey);
   }, [menuOpen, closeMenu]);
 
+  useEffect(() => {
+    const handler = (e) => setNavPercent(e.detail.percent);
+    window.addEventListener('progress-update', handler);
+    return () => window.removeEventListener('progress-update', handler);
+  }, []);
+
   const handleNav = (href) => {
     closeMenu();
     const el = document.querySelector(href);
@@ -130,7 +137,7 @@ export default function StickyNav() {
                 <circle cx="12" cy="12" r="10" />
                 <polyline points="12 6 12 12 16 14" />
               </svg>
-              <span id="progress-percent">0%</span>
+              <span id="progress-percent">{navPercent}%</span>
             </div>
           )}
           <ThemeToggle />
