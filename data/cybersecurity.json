@@ -17,7 +17,7 @@
       "duration": "Months 1–2",
       "modules": [
         {
-          "icon": "🐧",
+          "icon": "terminal",
           "accentClass": "a2",
           "title": "System Administration",
           "topics": [
@@ -28,25 +28,25 @@
           ],
           "resources": [
             {
-              "icon": "🎯",
+              "icon": "target",
               "name": "OverTheWire Bandit",
               "meta": "overthewire.org — Free Linux CLI wargame teaching fundamentals",
               "url": "https://overthewire.org/wargames/bandit/"
             },
             {
-              "icon": "📚",
+              "icon": "book-open",
               "name": "Linux Journey",
               "meta": "linuxjourney.com — Free interactive Linux training from basics to security",
               "url": "https://linuxjourney.com/"
             },
             {
-              "icon": "🎥",
+              "icon": "play",
               "name": "Professor Messer CompTIA Linux+",
               "meta": "professormesser.com — Free video course on Linux administration",
               "url": "https://www.professormesser.com/free-linux-plus-training/"
             },
             {
-              "icon": "🏢",
+              "icon": "building-2",
               "name": "Microsoft Learn Windows Server",
               "meta": "learn.microsoft.com — Free Windows Server administration modules",
               "url": "https://learn.microsoft.com/en-us/training/windows-server/"
@@ -139,7 +139,7 @@
           }
         },
         {
-          "icon": "🌐",
+          "icon": "globe",
           "accentClass": "a3",
           "title": "Network Fundamentals",
           "topics": [
@@ -150,25 +150,25 @@
           ],
           "resources": [
             {
-              "icon": "🎫",
+              "icon": "award",
               "name": "Cisco Networking Academy Cybersecurity Essentials",
               "meta": "netacad.com — Free course covering network defense and security fundamentals",
               "url": "https://www.netacad.com/courses/cybersecurity/cybersecurity-essentials"
             },
             {
-              "icon": "🎥",
+              "icon": "play",
               "name": "Professor Messer Network+ N10-009",
               "meta": "professormesser.com — Free CompTIA Network+ video course",
               "url": "https://www.professormesser.com/free-network-plus-training/"
             },
             {
-              "icon": "📊",
+              "icon": "bar-chart",
               "name": "Wireshark Official Documentation",
               "meta": "wireshark.org — Free network protocol analyzer and learning resources",
               "url": "https://www.wireshark.org/docs/"
             },
             {
-              "icon": "🔭",
+              "icon": "search",
               "name": "TryHackMe Network Fundamentals",
               "meta": "tryhackme.com — Free rooms covering networking basics",
               "url": "https://tryhackme.com/room/networkfundamentals8"
@@ -362,7 +362,7 @@
       "duration": "Months 3–4",
       "modules": [
         {
-          "icon": "🌐",
+          "icon": "globe",
           "accentClass": "a4",
           "title": "Web Application Security",
           "topics": [
@@ -373,25 +373,25 @@
           ],
           "resources": [
             {
-              "icon": "🎯",
+              "icon": "target",
               "name": "PortSwigger Web Security Academy",
               "meta": "portswigger.net/web-security — Free 200+ interactive web security labs",
               "url": "https://portswigger.net/web-security"
             },
             {
-              "icon": "📊",
+              "icon": "bar-chart",
               "name": "OWASP Top 10",
               "meta": "owasp.org — Free industry-standard vulnerability reference",
               "url": "https://owasp.org/www-project-top-ten/"
             },
             {
-              "icon": "💻",
+              "icon": "monitor",
               "name": "Hacksplaining",
               "meta": "hacksplaining.com — Free interactive web vulnerability lessons",
               "url": "https://www.hacksplaining.com/"
             },
             {
-              "icon": "🍎",
+              "icon": "target",
               "name": "OWASP Juice Shop",
               "meta": "owasp.org — Free deliberately insecure web app for training",
               "url": "https://owasp.org/www-project-juice-shop/"
@@ -481,7 +481,7 @@
           }
         },
         {
-          "icon": "🔒",
+          "icon": "lock",
           "accentClass": "a5",
           "title": "Secure Coding",
           "topics": [
@@ -492,25 +492,25 @@
           ],
           "resources": [
             {
-              "icon": "📜",
+              "icon": "file-text",
               "name": "OWASP Cheat Sheet Series",
               "meta": "cheatsheetseries.owasp.org — Free secure coding reference guides",
               "url": "https://cheatsheetseries.owasp.org/"
             },
             {
-              "icon": "📚",
+              "icon": "book-open",
               "name": "PortSwigger Secure Coding Practices",
               "meta": "portswigger.net — Free secure coding labs",
               "url": "https://portswigger.net/web-security/secure-coding"
             },
             {
-              "icon": "🏢",
+              "icon": "building-2",
               "name": "Microsoft Secure Coding Guidelines",
               "meta": "learn.microsoft.com — Free secure development lifecycle resources",
               "url": "https://learn.microsoft.com/en-us/azure/security/develop/"
             },
             {
-              "icon": "💡",
+              "icon": "lightbulb",
               "name": "SANS Secure Coding Practices",
               "meta": "sans.org — Free secure coding poster and resources",
               "url": "https://www.sans.org/white-papers/secure-coding-practices/"
@@ -704,7 +704,7 @@
       "duration": "Months 5–6",
       "modules": [
         {
-          "icon": "🔐",
+          "icon": "lock",
           "accentClass": "a6",
           "title": "Cryptography",
           "topics": [
@@ -715,25 +715,25 @@
           ],
           "resources": [
             {
-              "icon": "🎯",
+              "icon": "target",
               "name": "CryptoHack",
               "meta": "cryptohack.org — Free gamified cryptography learning platform with interactive challenges",
               "url": "https://cryptohack.org/"
             },
             {
-              "icon": "📚",
+              "icon": "book-open",
               "name": "Stanford Cryptography I (Dan Boneh)",
               "meta": "coursera.org — Free audit, comprehensive cryptography course",
               "url": "https://www.coursera.org/learn/crypto"
             },
             {
-              "icon": "🔧",
+              "icon": "wrench",
               "name": "CrypTool",
               "meta": "cryptool.org — Free open-source cryptography learning tools",
               "url": "https://www.cryptool.org/en/cto/"
             },
             {
-              "icon": "🔐",
+              "icon": "lock",
               "name": "HashiCorp Vault Getting Started",
               "meta": "developer.hashicorp.com — Free secrets management tutorials",
               "url": "https://developer.hashicorp.com/vault/docs"
@@ -822,7 +822,7 @@
           }
         },
         {
-          "icon": "👤",
+          "icon": "user",
           "accentClass": "a7",
           "title": "Identity & Access Management",
           "topics": [
@@ -833,25 +833,25 @@
           ],
           "resources": [
             {
-              "icon": "📝",
+              "icon": "file-text",
               "name": "Auth0 JWT Handbook",
               "meta": "auth0.com — Free comprehensive JWT and OAuth guide",
               "url": "https://auth0.com/docs/tokens"
             },
             {
-              "icon": "💡",
+              "icon": "lightbulb",
               "name": "OAuth 2.0 Simplified",
               "meta": "aaronparecki.com — Free OAuth 2.0 tutorial",
               "url": "https://aaronparecki.com/oauth-2-simplified/"
             },
             {
-              "icon": "🔑",
+              "icon": "key",
               "name": "Keycloak Getting Started",
               "meta": "keycloak.org — Free open-source IAM getting started guide",
               "url": "https://www.keycloak.org/getting-started"
             },
             {
-              "icon": "📊",
+              "icon": "bar-chart",
               "name": "OWASP ASVS",
               "meta": "owasp.org — Free application security verification standard",
               "url": "https://owasp.org/www-project-application-security-verification-standard/"
@@ -1047,7 +1047,7 @@
       "duration": "Months 7–8",
       "modules": [
         {
-          "icon": "💡",
+          "icon": "lightbulb",
           "accentClass": "a8",
           "title": "Penetration Testing",
           "topics": [
@@ -1058,25 +1058,25 @@
           ],
           "resources": [
             {
-              "icon": "🔭",
+              "icon": "search",
               "name": "TryHackMe Free Tier",
               "meta": "tryhackme.com — Free rooms covering pentesting methodology",
               "url": "https://tryhackme.com/"
             },
             {
-              "icon": "🎯",
+              "icon": "target",
               "name": "Hack The Box Starting Point",
               "meta": "hackthebox.com — Free introductory pentesting machines",
               "url": "https://www.hackthebox.com/starting-point"
             },
             {
-              "icon": "🎲",
+              "icon": "terminal",
               "name": "PicoCTF (CMU CyLab)",
               "meta": "picoctf.org — Free CTF challenges for beginners",
               "url": "https://picoctf.org/"
             },
             {
-              "icon": "📜",
+              "icon": "file-text",
               "name": "PTES (Penetration Testing Execution Standard)",
               "meta": "pentest-standard.org — Free pentest methodology standard",
               "url": "http://www.pentest-standard.org/"
@@ -1168,7 +1168,7 @@
           }
         },
         {
-          "icon": "🖤",
+          "icon": "shield",
           "accentClass": "a9",
           "title": "Exploitation Frameworks",
           "topics": [
@@ -1179,25 +1179,25 @@
           ],
           "resources": [
             {
-              "icon": "📚",
+              "icon": "book-open",
               "name": "Metasploit Unleashed (Offensive Security)",
               "meta": "offensive-security.com — Free comprehensive Metasploit guide",
               "url": "https://www.offensive-security.com/metasploit-unleashed/"
             },
             {
-              "icon": "🔭",
+              "icon": "search",
               "name": "TryHackMe Metasploit Room",
               "meta": "tryhackme.com — Free hands-on Metasploit training",
               "url": "https://tryhackme.com/room/metasploitintro"
             },
             {
-              "icon": "🔎",
+              "icon": "search",
               "name": "Exploit-DB",
               "meta": "exploit-db.com — Free public exploit database",
               "url": "https://www.exploit-db.com/"
             },
             {
-              "icon": "📝",
+              "icon": "file-text",
               "name": "Rapid7 Metasploit Documentation",
               "meta": "docs.rapid7.com — Free official Metasploit docs",
               "url": "https://docs.rapid7.com/metasploit/"
@@ -1391,7 +1391,7 @@
       "duration": "Months 9–10",
       "modules": [
         {
-          "icon": "🎯",
+          "icon": "target",
           "accentClass": "a10",
           "title": "Threat Intelligence",
           "topics": [
@@ -1402,25 +1402,25 @@
           ],
           "resources": [
             {
-              "icon": "🏷️",
+              "icon": "target",
               "name": "MITRE ATT&CK",
               "meta": "attack.mitre.org — Free adversary tactics and techniques knowledge base",
               "url": "https://attack.mitre.org/"
             },
             {
-              "icon": "💡",
+              "icon": "lightbulb",
               "name": "AlienVault OTX",
               "meta": "otx.alienvault.com — Free community threat intelligence platform",
               "url": "https://otx.alienvault.com/"
             },
             {
-              "icon": "⚠️",
+              "icon": "alert-triangle",
               "name": "CISA KEV Catalog",
               "meta": "cisa.gov — Free known exploited vulnerabilities catalog",
               "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
             },
             {
-              "icon": "💡",
+              "icon": "lightbulb",
               "name": "Sigma Rules (GitHub)",
               "meta": "github.com/SigmaHQ/sigma — Free detection rule repository",
               "url": "https://github.com/SigmaHQ/sigma"
@@ -1509,7 +1509,7 @@
           }
         },
         {
-          "icon": "🛡️",
+          "icon": "shield",
           "accentClass": "a11",
           "title": "Security Operations",
           "topics": [
@@ -1520,25 +1520,25 @@
           ],
           "resources": [
             {
-              "icon": "🎯",
+              "icon": "target",
               "name": "LetsDefend Free Tier",
               "meta": "letsdefend.io — Free SOC fundamentals and phishing analysis courses",
               "url": "https://letsdefend.io/"
             },
             {
-              "icon": "📊",
+              "icon": "bar-chart",
               "name": "Splunk Free Training",
               "meta": "splunk.com — Free Splunk Fundamentals 1 course",
               "url": "https://www.splunk.com/en_us/training/free-courses.html"
             },
             {
-              "icon": "🔧",
+              "icon": "wrench",
               "name": "Elastic Security Training",
               "meta": "elastic.co — Free SIEM and detection rules training",
               "url": "https://www.elastic.co/training"
             },
             {
-              "icon": "🎮",
+              "icon": "play",
               "name": "Blue Team Labs Online",
               "meta": "blueteamlabs.online — Free blue team challenges",
               "url": "https://blueteamlabs.online/"
@@ -1730,7 +1730,7 @@
       "duration": "Months 11–12",
       "modules": [
         {
-          "icon": "🚨",
+          "icon": "alert-circle",
           "accentClass": "a12",
           "title": "Incident Response",
           "topics": [
@@ -1741,25 +1741,25 @@
           ],
           "resources": [
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "CISA Incident Response Training",
               "meta": "cisa.gov — Free hands-on IR training courses",
               "url": "https://www.cisa.gov/cyber-training"
             },
             {
-              "icon": "📜",
+              "icon": "file-text",
               "name": "NIST SP 800-61 (IR Guide)",
               "meta": "csrc.nist.gov — Free IR guidance document",
               "url": "https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final"
             },
             {
-              "icon": "💡",
+              "icon": "lightbulb",
               "name": "SANS DFIR Posters",
               "meta": "sans.org — Free IR methodology cheat sheets",
               "url": "https://www.sans.org/white-papers/incident-response-process/"
             },
             {
-              "icon": "📄",
+              "icon": "file-text",
               "name": "The DFIR Report",
               "meta": "thedfirreport.com — Free real-world incident analysis reports",
               "url": "https://thedfirreport.com/"
@@ -1848,7 +1848,7 @@
           }
         },
         {
-          "icon": "🔍",
+          "icon": "search",
           "accentClass": "a13",
           "title": "Digital Forensics",
           "topics": [
@@ -1859,25 +1859,25 @@
           ],
           "resources": [
             {
-              "icon": "🔍",
+              "icon": "search",
               "name": "Autopsy/Sleuth Kit",
               "meta": "autopsy.com — Free open-source digital forensics platform",
               "url": "https://www.autopsy.com/"
             },
             {
-              "icon": "💻",
+              "icon": "monitor",
               "name": "Volatility Framework",
               "meta": "volatilityfoundation.org — Free memory forensics framework",
               "url": "https://www.volatilityfoundation.org/"
             },
             {
-              "icon": "🌐",
+              "icon": "globe",
               "name": "Malware-Traffic-Analysis.net",
               "meta": "malware-traffic-analysis.net — Free pcap exercises",
               "url": "https://www.malware-traffic-analysis.net/"
             },
             {
-              "icon": "💡",
+              "icon": "lightbulb",
               "name": "The CIRT.in DFIR Guide",
               "meta": "dfir.pubpub.org — Free community DFIR resource",
               "url": "https://dfir.pubpub.org/"
@@ -2070,7 +2070,7 @@
       "duration": "Months 13–14",
       "modules": [
         {
-          "icon": "📋",
+          "icon": "clipboard",
           "accentClass": "a14",
           "title": "Governance, Risk & Compliance",
           "topics": [
@@ -2081,25 +2081,25 @@
           ],
           "resources": [
             {
-              "icon": "📜",
+              "icon": "file-text",
               "name": "NIST CSF 2.0",
               "meta": "nist.gov — Free cybersecurity framework",
               "url": "https://www.nist.gov/cyberframework"
             },
             {
-              "icon": "💡",
+              "icon": "lightbulb",
               "name": "NIST SP 800-53",
               "meta": "csrc.nist.gov — Free security and privacy controls catalog",
               "url": "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final"
             },
             {
-              "icon": "🏥",
+              "icon": "hospital",
               "name": "HIPAA Security Rule",
               "meta": "hhs.gov — Free HIPAA security guidance",
               "url": "https://www.hhs.gov/hipaa/for-professionals/security/index.html"
             },
             {
-              "icon": "🏂",
+              "icon": "award",
               "name": "ISACA COBIT Overview",
               "meta": "isaca.org — Free IT governance framework materials",
               "url": "https://www.isaca.org/resources/cobit"
@@ -2188,7 +2188,7 @@
           }
         },
         {
-          "icon": "☁️",
+          "icon": "cloud",
           "accentClass": "a15",
           "title": "Cloud Security",
           "topics": [
@@ -2199,25 +2199,25 @@
           ],
           "resources": [
             {
-              "icon": "🏢",
+              "icon": "building-2",
               "name": "AWS Security Fundamentals",
               "meta": "skillbuilder.aws — Free AWS security training",
               "url": "https://explore.skillbuilder.aws/learn/course/external/view/elearning/134/aws-security-fundamentals"
             },
             {
-              "icon": "☁️",
+              "icon": "cloud",
               "name": "Google Cloud Security",
               "meta": "cloud.google.com/training — Free cloud security courses",
               "url": "https://cloud.google.com/training"
             },
             {
-              "icon": "🏢",
+              "icon": "building-2",
               "name": "Microsoft Learn Azure Security",
               "meta": "learn.microsoft.com — Free Azure security modules",
               "url": "https://learn.microsoft.com/en-us/training/browse/?products=azure"
             },
             {
-              "icon": "🏃",
+              "icon": "activity",
               "name": "CIS Benchmarks",
               "meta": "cisecurity.org — Free cloud security configuration benchmarks",
               "url": "https://www.cisecurity.org/cis-benchmarks"
@@ -2410,7 +2410,7 @@
       "duration": "Months 15–16",
       "modules": [
         {
-          "icon": "💻",
+          "icon": "monitor",
           "accentClass": "a16",
           "title": "Security Portfolio",
           "topics": [
@@ -2421,25 +2421,25 @@
           ],
           "resources": [
             {
-              "icon": "📝",
+              "icon": "file-text",
               "name": "GitHub Profile README Generator",
               "meta": "github.com — Free profile README builder",
               "url": "https://github.com/abhisheknaiidu/awesome-github-profile-readme"
             },
             {
-              "icon": "🎯",
+              "icon": "target",
               "name": "TryHackMe Profile Integration",
               "meta": "tryhackme.com — Free profile linking for portfolio",
               "url": "https://tryhackme.com/profile"
             },
             {
-              "icon": "🔎",
+              "icon": "search",
               "name": "HackerOne Hacktivity",
               "meta": "hackerone.com — Free public vulnerability disclosure examples",
               "url": "https://hackerone.com/hacktivity"
             },
             {
-              "icon": "💡",
+              "icon": "lightbulb",
               "name": "Cybersecurity Blogging Guide",
               "meta": "Various free resources for security blogging",
               "url": "https://www.google.com/search?q=cybersecurity+blogging+guide"
@@ -2528,7 +2528,7 @@
           }
         },
         {
-          "icon": "🏆",
+          "icon": "award",
           "accentClass": "a17",
           "title": "Interview Preparation",
           "topics": [
@@ -2539,25 +2539,25 @@
           ],
           "resources": [
             {
-              "icon": "🔭",
+              "icon": "search",
               "name": "TryHackMe Interview Prep",
               "meta": "tryhackme.com — Free security interview preparation rooms",
               "url": "https://tryhackme.com/room/interviewprep"
             },
             {
-              "icon": "🔎",
+              "icon": "search",
               "name": "Cybersecurity Interview Questions",
               "meta": "Various free online resources for security interview preparation",
               "url": "https://www.google.com/search?q=cybersecurity+interview+questions"
             },
             {
-              "icon": "📚",
+              "icon": "book-open",
               "name": "CompTIA Security+ Study Materials",
               "meta": "professormesser.com — Free video series",
               "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-video/sy0-701-comptia-security-plus-course/"
             },
             {
-              "icon": "📄",
+              "icon": "file-text",
               "name": "SANS Blog Career Resources",
               "meta": "sans.org — Free career guidance articles",
               "url": "https://www.sans.org/blog/?focus-area=career-development"

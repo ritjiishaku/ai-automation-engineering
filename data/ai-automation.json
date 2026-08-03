@@ -67,6 +67,20 @@
           "Explain a concept you learned (LLMs, function calling, RAG)"
         ],
         "suggestedHashtags": ["#AIAutomation", "#LLM", "#OpenAI", "#Zapier", "#100DaysOfCode"]
+      },
+      "projects": {
+        "general": {
+          "title": "Smart File Sorter CLI",
+          "desc": "Build a Python CLI that watches a folder, reads file contents via the OpenAI API, and automatically sorts files into categories based on their content.",
+          "skills": [
+            "CLI design with Typer",
+            "OpenAI API integration",
+            "Prompt engineering for classification",
+            "File system automation",
+            "Error handling and logging"
+          ],
+          "stack": ["Python", "Typer", "OpenAI API", "watchdog"]
+        }
       }
     },
     {
@@ -125,6 +139,19 @@
           "Post about self-hosting n8n vs using cloud"
         ],
         "suggestedHashtags": ["#n8n", "#WorkflowAutomation", "#NoCode", "#AI", "#100DaysOfCode"]
+      },
+      "projects": {
+        "general": {
+          "title": "Email Digest Bot",
+          "desc": "Build an n8n workflow that monitors an inbox, summarises each email with GPT, and posts a daily digest to a Slack channel.",
+          "skills": [
+            "n8n workflow design with triggers",
+            "LLM integration in n8n",
+            "Slack API notifications",
+            "Scheduling and error handling"
+          ],
+          "stack": ["n8n", "OpenAI node", "Slack", "Gmail"]
+        }
       }
     },
     {
@@ -182,6 +209,19 @@
           "Post about chunking strategies and why they matter"
         ],
         "suggestedHashtags": ["#RAG", "#VectorDB", "#ChromaDB", "#LangChain", "#100DaysOfCode"]
+      },
+      "projects": {
+        "general": {
+          "title": "Policy Q&A Assistant",
+          "desc": "Create a RAG chatbot that indexes internal company documents and answers natural language questions with grounded, cited responses.",
+          "skills": [
+            "Document chunking and embedding",
+            "Vector database setup (ChromaDB)",
+            "RAG pipeline with Flowise",
+            "Conversational memory and context"
+          ],
+          "stack": ["Flowise", "ChromaDB", "n8n", "OpenAI"]
+        }
       }
     },
     {
@@ -239,6 +279,19 @@
           "Post about error handling lessons learned"
         ],
         "suggestedHashtags": ["#AIAgents", "#APIs", "#FunctionCalling", "#n8n", "#100DaysOfCode"]
+      },
+      "projects": {
+        "general": {
+          "title": "Lead Qualification Pipeline",
+          "desc": "Build an AI agent that reads leads from Google Sheets, qualifies them with GPT, enriches the data, and updates your CRM automatically.",
+          "skills": [
+            "Multi-API integration",
+            "Function calling for structured output",
+            "Branching and conditional logic",
+            "Retry and error handling"
+          ],
+          "stack": ["n8n", "Google Sheets API", "CRM API", "OpenAI"]
+        }
       }
     },
     {
@@ -296,6 +349,19 @@
           "Post about LangGraph vs CrewAI — when to use which"
         ],
         "suggestedHashtags": ["#MultiAgent", "#CrewAI", "#LangGraph", "#AIAgents", "#100DaysOfCode"]
+      },
+      "projects": {
+        "general": {
+          "title": "Content Research Team",
+          "desc": "Build a multi-agent system where a Researcher agent gathers sources, a Writer agent drafts content, and an Editor agent refines and fact-checks — all collaborating on a blog post.",
+          "skills": [
+            "Agent role definition",
+            "Task delegation and coordination",
+            "Reasoning workflows with LangGraph",
+            "Tool integration for agents"
+          ],
+          "stack": ["CrewAI", "LangGraph", "OpenAI", "Python"]
+        }
       }
     },
     {
@@ -353,6 +419,19 @@
           "Share lessons learned about packaging AI for clients"
         ],
         "suggestedHashtags": ["#AIDeployment", "#Streamlit", "#Gradio", "#Monetisation", "#100DaysOfCode"]
+      },
+      "projects": {
+        "general": {
+          "title": "AI Assistant with Monitoring Dashboard",
+          "desc": "Deploy a production AI chatbot to Streamlit with usage tracking, logging, and a basic monitoring dashboard showing request counts and latency.",
+          "skills": [
+            "Production deployment",
+            "Usage monitoring and logging",
+            "Monetisation tier design",
+            "Documentation and walkthrough"
+          ],
+          "stack": ["Streamlit", "Docker", "OpenAI", "SQLite"]
+        }
       }
     },
     {

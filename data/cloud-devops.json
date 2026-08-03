@@ -17,7 +17,7 @@
       "duration": "Months 1–2",
       "modules": [
         {
-          "icon": "🐧",
+          "icon": "terminal",
           "accentClass": "a2",
           "title": "Linux System Administration",
           "topics": [
@@ -30,25 +30,25 @@
           ],
           "resources": [
             {
-              "icon": "📘",
+              "icon": "book-open",
               "name": "Learn Linux for Beginners (freeCodeCamp)",
               "meta": "freecodecamp.org · Free complete Linux handbook",
               "url": "https://www.freecodecamp.org/learn/linux/"
             },
             {
-              "icon": "📕",
+              "icon": "book",
               "name": "The Linux Command Line (book)",
               "meta": "linuxcommand.org · Free book on Linux CLI",
               "url": "https://linuxcommand.org/tlcl.php"
             },
             {
-              "icon": "🎯",
+              "icon": "target",
               "name": "OverTheWire Bandit",
               "meta": "overthewire.org · Free Linux CLI wargame",
               "url": "https://overthewire.org/wargames/bandit/"
             },
             {
-              "icon": "🌐",
+              "icon": "globe",
               "name": "Linux Journey",
               "meta": "linuxjourney.com · Free interactive Linux training",
               "url": "https://linuxjourney.com/"
@@ -141,7 +141,7 @@
           }
         },
         {
-          "icon": "🔀",
+          "icon": "git-branch",
           "accentClass": "a3",
           "title": "Git & Version Control",
           "topics": [
@@ -153,25 +153,25 @@
           ],
           "resources": [
             {
-              "icon": "🌳",
+              "icon": "git-branch",
               "name": "Learn Git Branching",
               "meta": "learngitbranching.js.org · Free interactive Git learning",
               "url": "https://learngitbranching.js.org/"
             },
             {
-              "icon": "📘",
+              "icon": "book-open",
               "name": "Pro Git Book",
               "meta": "git-scm.com · Free comprehensive Git book",
               "url": "https://git-scm.com/book/en/v2"
             },
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "GitHub Skills",
               "meta": "skills.github.com · Free interactive GitHub courses",
               "url": "https://skills.github.com/"
             },
             {
-              "icon": "🎮",
+              "icon": "play",
               "name": "Oh My Git! Game",
               "meta": "ohmygit.org · Free Git learning game",
               "url": "https://ohmygit.org/"
@@ -368,7 +368,7 @@
       "duration": "Months 3–4",
       "modules": [
         {
-          "icon": "🐳",
+          "icon": "box",
           "accentClass": "a2",
           "title": "Docker Fundamentals",
           "topics": [
@@ -381,25 +381,25 @@
           ],
           "resources": [
             {
-              "icon": "📘",
+              "icon": "book-open",
               "name": "The Docker Handbook (freeCodeCamp)",
               "meta": "freecodecamp.org · Free comprehensive Docker book",
               "url": "https://www.freecodecamp.org/learn/"
             },
             {
-              "icon": "🐳",
+              "icon": "box",
               "name": "Docker 101 Tutorial",
               "meta": "docker.com · Free browser-based Docker tutorial",
               "url": "https://www.docker.com/101-tutorial/"
             },
             {
-              "icon": "🧪",
+              "icon": "flask-conical",
               "name": "Play with Docker",
               "meta": "labs.play-with-docker.com · Free browser Docker playground",
               "url": "https://labs.play-with-docker.com/"
             },
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "Docker Curriculum",
               "meta": "docker-curriculum.com · Free Docker tutorial",
               "url": "https://docker-curriculum.com/"
@@ -489,7 +489,7 @@
           }
         },
         {
-          "icon": "📦",
+          "icon": "package",
           "accentClass": "a3",
           "title": "Docker Compose & Multi-Container Apps",
           "topics": [
@@ -501,25 +501,25 @@
           ],
           "resources": [
             {
-              "icon": "📘",
+              "icon": "book-open",
               "name": "Docker Compose Docs",
               "meta": "docs.docker.com · Free official Compose documentation",
               "url": "https://docs.docker.com/compose/"
             },
             {
-              "icon": "🧪",
+              "icon": "flask-conical",
               "name": "Play with Docker Compose",
               "meta": "labs.play-with-docker.com · Free hands-on playground",
               "url": "https://labs.play-with-docker.com/"
             },
             {
-              "icon": "📦",
+              "icon": "package",
               "name": "Docker Compose Samples",
               "meta": "github.com/docker · Free sample Compose files",
               "url": "https://github.com/docker/awesome-compose"
             },
             {
-              "icon": "🎥",
+              "icon": "play",
               "name": "YouTube Docker Compose Tutorials",
               "meta": "youtube.com · Free video tutorials",
               "url": "https://www.youtube.com/results?search_query=docker+compose+tutorial"
@@ -718,7 +718,7 @@
       "duration": "Months 5–6",
       "modules": [
         {
-          "icon": "☸️",
+          "icon": "network",
           "accentClass": "a4",
           "title": "Kubernetes Basics",
           "topics": [
@@ -731,25 +731,25 @@
           ],
           "resources": [
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "Introduction to Kubernetes (Linux Foundation)",
               "meta": "training.linuxfoundation.org · Free K8s fundamentals course",
               "url": "https://training.linuxfoundation.org/"
             },
             {
-              "icon": "📘",
+              "icon": "book-open",
               "name": "Kubernetes Official Tutorials",
               "meta": "kubernetes.io · Free interactive K8s tutorials",
               "url": "https://kubernetes.io/docs/tutorials/"
             },
             {
-              "icon": "🧪",
+              "icon": "flask-conical",
               "name": "Play with Kubernetes",
               "meta": "labs.play-with-k8s.com · Free browser K8s playground",
               "url": "https://labs.play-with-k8s.com/"
             },
             {
-              "icon": "🎯",
+              "icon": "target",
               "name": "KodeKloud Kubernetes Labs",
               "meta": "learn.kodekloud.com · Free hands-on K8s labs",
               "url": "https://learn.kodekloud.com/"
@@ -838,7 +838,7 @@
           }
         },
         {
-          "icon": "🏭",
+          "icon": "building-2",
           "accentClass": "a5",
           "title": "Production Kubernetes",
           "topics": [
@@ -850,25 +850,25 @@
           ],
           "resources": [
             {
-              "icon": "📘",
+              "icon": "book-open",
               "name": "Kubernetes the Hard Way",
               "meta": "github.com/kelseyhightower · Free deep-dive K8s bootstrapping guide",
               "url": "https://github.com/kelseyhightower/kubernetes-the-hard-way"
             },
             {
-              "icon": "⎈",
+              "icon": "network",
               "name": "Helm Official Documentation",
               "meta": "helm.sh · Free Helm chart tutorials",
               "url": "https://helm.sh/docs/"
             },
             {
-              "icon": "🔐",
+              "icon": "lock",
               "name": "K8s Documentation RBAC",
               "meta": "kubernetes.io · Free RBAC guide",
               "url": "https://kubernetes.io/docs/reference/access-authn-authz/rbac/"
             },
             {
-              "icon": "💾",
+              "icon": "database",
               "name": "K8s Documentation Persistent Volumes",
               "meta": "kubernetes.io · Free storage guide",
               "url": "https://kubernetes.io/docs/concepts/storage/persistent-volumes/"
@@ -1066,7 +1066,7 @@
       "duration": "Months 7–8",
       "modules": [
         {
-          "icon": "🔄",
+          "icon": "refresh-cw",
           "accentClass": "a6",
           "title": "CI/CD Pipeline Design",
           "topics": [
@@ -1078,25 +1078,25 @@
           ],
           "resources": [
             {
-              "icon": "📘",
+              "icon": "book-open",
               "name": "The CI/CD Handbook (freeCodeCamp)",
               "meta": "freecodecamp.org · Free comprehensive CI/CD guide",
               "url": "https://www.freecodecamp.org/learn/"
             },
             {
-              "icon": "⚙️",
+              "icon": "settings",
               "name": "GitHub Actions Documentation",
               "meta": "docs.github.com · Free official Actions docs",
               "url": "https://docs.github.com/en/actions"
             },
             {
-              "icon": "🦊",
+              "icon": "git-branch",
               "name": "GitLab CI/CD Documentation",
               "meta": "docs.gitlab.com · Free GitLab CI docs",
               "url": "https://docs.gitlab.com/ee/ci/"
             },
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "GitHub Learning Lab",
               "meta": "skills.github.com · Free interactive CI/CD courses",
               "url": "https://skills.github.com/"
@@ -1186,7 +1186,7 @@
           }
         },
         {
-          "icon": "🚀",
+          "icon": "rocket",
           "accentClass": "a7",
           "title": "Build Automation & Release Management",
           "topics": [
@@ -1197,25 +1197,25 @@
           ],
           "resources": [
             {
-              "icon": "🧩",
+              "icon": "puzzle",
               "name": "GitHub Actions Marketplace",
               "meta": "github.com/marketplace · Free CI/CD action marketplace",
               "url": "https://github.com/marketplace"
             },
             {
-              "icon": "📋",
+              "icon": "clipboard",
               "name": "Semantic Versioning",
               "meta": "semver.org · Free versioning standard",
               "url": "https://semver.org/"
             },
             {
-              "icon": "🚩",
+              "icon": "flag",
               "name": "LaunchDarkly Feature Flags",
               "meta": "launchdarkly.com · Free tier for feature flags",
               "url": "https://launchdarkly.com/"
             },
             {
-              "icon": "🎥",
+              "icon": "play",
               "name": "YouTube DevOps Deployment Strategies",
               "meta": "youtube.com · Free deployment strategy tutorials",
               "url": "https://www.youtube.com/results?search_query=devops+deployment+strategies"
@@ -1411,7 +1411,7 @@
       "duration": "Months 9–10",
       "modules": [
         {
-          "icon": "🏗️",
+          "icon": "building-2",
           "accentClass": "a8",
           "title": "Terraform/OpenTofu",
           "topics": [
@@ -1423,25 +1423,25 @@
           ],
           "resources": [
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "HashiCorp Learn Terraform",
               "meta": "developer.hashicorp.com · Free 100+ hands-on Terraform tutorials",
               "url": "https://developer.hashicorp.com/terraform/tutorials"
             },
             {
-              "icon": "📘",
+              "icon": "book-open",
               "name": "OpenTofu Documentation",
               "meta": "opentofu.org · Free IaC tool documentation",
               "url": "https://opentofu.org/docs/"
             },
             {
-              "icon": "📋",
+              "icon": "clipboard",
               "name": "Terraform Associate Study Guide (freeCodeCamp)",
               "meta": "freecodecamp.org · Free certification study guide",
               "url": "https://www.freecodecamp.org/learn/"
             },
             {
-              "icon": "📕",
+              "icon": "book",
               "name": "Terraform up & Running (free chapters)",
               "meta": "terraformupandrunning.com · Free book chapters",
               "url": "https://www.terraformupandrunning.com/"
@@ -1529,7 +1529,7 @@
           }
         },
         {
-          "icon": "🤖",
+          "icon": "bot",
           "accentClass": "a9",
           "title": "Infrastructure Automation",
           "topics": [
@@ -1540,25 +1540,25 @@
           ],
           "resources": [
             {
-              "icon": "📘",
+              "icon": "book-open",
               "name": "Ansible Official Documentation",
               "meta": "docs.ansible.com · Free Ansible learning resources",
               "url": "https://docs.ansible.com/"
             },
             {
-              "icon": "🎯",
+              "icon": "target",
               "name": "Ansible Getting Started",
               "meta": "ansible.com · Free hands-on Ansible tutorials",
               "url": "https://www.ansible.com/get-started"
             },
             {
-              "icon": "🧪",
+              "icon": "flask-conical",
               "name": "Kitchen.ci",
               "meta": "kitchen.ci · Free infrastructure testing framework",
               "url": "https://kitchen.ci/"
             },
             {
-              "icon": "🧪",
+              "icon": "flask-conical",
               "name": "Terratest (Go)",
               "meta": "terratest.gruntwork.io · Free infrastructure testing library",
               "url": "https://terratest.gruntwork.io/"
@@ -1754,7 +1754,7 @@
       "duration": "Months 11–12",
       "modules": [
         {
-          "icon": "☁️",
+          "icon": "cloud",
           "accentClass": "a10",
           "title": "AWS/GCP/Azure Foundations",
           "topics": [
@@ -1766,25 +1766,25 @@
           ],
           "resources": [
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "AWS Skill Builder",
               "meta": "skillbuilder.aws · Free AWS digital training",
               "url": "https://skillbuilder.aws/"
             },
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "Google Cloud Training",
               "meta": "cloud.google.com/training · Free GCP courses",
               "url": "https://cloud.google.com/training"
             },
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "Microsoft Learn Azure",
               "meta": "learn.microsoft.com · Free Azure learning paths",
               "url": "https://learn.microsoft.com/en-us/training/"
             },
             {
-              "icon": "💰",
+              "icon": "dollar-sign",
               "name": "AWS/GCP/Azure Free Tiers",
               "meta": "aws.amazon.com/free, cloud.google.com/free, azure.microsoft.com/free · Free cloud credits",
               "url": "https://aws.amazon.com/free/"
@@ -1873,7 +1873,7 @@
           }
         },
         {
-          "icon": "⚡",
+          "icon": "zap",
           "accentClass": "a11",
           "title": "Cloud-Native Services",
           "topics": [
@@ -1885,25 +1885,25 @@
           ],
           "resources": [
             {
-              "icon": "⚡",
+              "icon": "zap",
               "name": "AWS Lambda Getting Started",
               "meta": "aws.amazon.com · Free Lambda tutorials and free tier",
               "url": "https://aws.amazon.com/lambda/"
             },
             {
-              "icon": "⚡",
+              "icon": "zap",
               "name": "Google Cloud Functions",
               "meta": "cloud.google.com · Free tier with 2M invocations",
               "url": "https://cloud.google.com/functions"
             },
             {
-              "icon": "☸️",
+              "icon": "network",
               "name": "EKS/GKE Free Trials",
               "meta": "aws.amazon.com/eks, cloud.google.com/kubernetes-engine · Free managed K8s trials",
               "url": "https://aws.amazon.com/eks/"
             },
             {
-              "icon": "☁️",
+              "icon": "cloud",
               "name": "Cloud Resume Challenge",
               "meta": "cloudresumechallenge.dev · Free cloud project guide",
               "url": "https://cloudresumechallenge.dev/"
@@ -2101,7 +2101,7 @@
       "duration": "Months 13–14",
       "modules": [
         {
-          "icon": "📊",
+          "icon": "bar-chart",
           "accentClass": "a12",
           "title": "Monitoring & Observability",
           "topics": [
@@ -2112,25 +2112,25 @@
           ],
           "resources": [
             {
-              "icon": "📈",
+              "icon": "trending-up",
               "name": "Prometheus Getting Started",
               "meta": "prometheus.io · Free monitoring documentation",
               "url": "https://prometheus.io/docs/prometheus/latest/getting_started/"
             },
             {
-              "icon": "📊",
+              "icon": "bar-chart",
               "name": "Grafana Play",
               "meta": "play.grafana.org · Free interactive Grafana demo",
               "url": "https://play.grafana.org/"
             },
             {
-              "icon": "🎥",
+              "icon": "play",
               "name": "Prometheus & Grafana Course (freeCodeCamp YouTube)",
               "meta": "youtube.com · Free 3-hour monitoring course",
               "url": "https://www.youtube.com/watch?v=7gW5pSM6dlU"
             },
             {
-              "icon": "🔭",
+              "icon": "search",
               "name": "OpenTelemetry Documentation",
               "meta": "opentelemetry.io · Free observability framework docs",
               "url": "https://opentelemetry.io/docs/"
@@ -2221,7 +2221,7 @@
           }
         },
         {
-          "icon": "🛡️",
+          "icon": "shield",
           "accentClass": "a13",
           "title": "SRE Practices",
           "topics": [
@@ -2233,25 +2233,25 @@
           ],
           "resources": [
             {
-              "icon": "📘",
+              "icon": "book-open",
               "name": "Google SRE Books (free)",
               "meta": "sre.google/books · Free SRE books from Google",
               "url": "https://sre.google/books/"
             },
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "Google SRE Fundamentals",
               "meta": "sre.google · Free SRE case studies and resources",
               "url": "https://sre.google/"
             },
             {
-              "icon": "☁️",
+              "icon": "cloud",
               "name": "Google Cloud SRE",
               "meta": "cloud.google.com/sre · Free SRE documentation",
               "url": "https://cloud.google.com/sre"
             },
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "SRE Classroom Workshops",
               "meta": "sre.google/classroom · Free SRE workshop modules",
               "url": "https://sre.google/classroom/"
@@ -2450,7 +2450,7 @@
       "duration": "Months 15–16",
       "modules": [
         {
-          "icon": "💼",
+          "icon": "briefcase",
           "accentClass": "a14",
           "title": "DevOps Portfolio",
           "topics": [
@@ -2462,25 +2462,25 @@
           ],
           "resources": [
             {
-              "icon": "📝",
+              "icon": "file-text",
               "name": "GitHub Profile README Generator",
               "meta": "github.com · Free profile builder",
               "url": "https://github.com/abhisheknaiidu/awesome-github-profile-readme"
             },
             {
-              "icon": "☁️",
+              "icon": "cloud",
               "name": "Cloud Resume Challenge",
               "meta": "cloudresumechallenge.dev · Free cloud project guide",
               "url": "https://cloudresumechallenge.dev/"
             },
             {
-              "icon": "📋",
+              "icon": "clipboard",
               "name": "HashiCorp Certified Study Guides",
               "meta": "hashicorp.com · Free certification prep",
               "url": "https://www.hashicorp.com/certification"
             },
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "Linux Foundation Training",
               "meta": "training.linuxfoundation.org · Free Linux/cloud courses",
               "url": "https://training.linuxfoundation.org/"
@@ -2568,7 +2568,7 @@
           }
         },
         {
-          "icon": "🎤",
+          "icon": "mic",
           "accentClass": "a15",
           "title": "Interview Preparation",
           "topics": [
@@ -2579,25 +2579,25 @@
           ],
           "resources": [
             {
-              "icon": "❓",
+              "icon": "help-circle",
               "name": "DevOps Interview Questions (various)",
               "meta": "Free online resources",
               "url": "https://github.com/bregman-arie/devops-exercises"
             },
             {
-              "icon": "🎓",
+              "icon": "graduation-cap",
               "name": "KodeKloud Interview Prep",
               "meta": "learn.kodekloud.com · Free DevOps interview prep",
               "url": "https://learn.kodekloud.com/"
             },
             {
-              "icon": "🐧",
+              "icon": "terminal",
               "name": "Linux Interview Questions",
               "meta": "Free online resources",
               "url": "https://github.com/bregman-arie/devops-exercises"
             },
             {
-              "icon": "💻",
+              "icon": "monitor",
               "name": "GitHub DevOps Projects",
               "meta": "github.com · Free project-based interview prep",
               "url": "https://github.com/topics/devops-projects"

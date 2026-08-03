@@ -747,7 +747,7 @@
               "icon": "book-open",
               "name": "Introduction to Probability and Statistics Using Python",
               "meta": "Liang Yann · Free · Applied probability and statistics with Python examples",
-              "url": "http://python-for-scientists.org"
+              "url": "https://python-for-scientists.readthedocs.io/en/latest/"
             }
           ],
           "projects": {
@@ -1549,7 +1549,7 @@
               "icon": "book-open",
               "name": "Spectral Python (SPy)",
               "meta": "spectralpython.github.io · Free · Python library for hyperspectral image analysis",
-              "url": "http://www.spectralpython.net"
+              "url": "https://github.com/spectralpython/spectral"
             }
           ],
           "projects": {

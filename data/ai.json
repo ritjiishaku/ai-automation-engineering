@@ -5586,7 +5586,7 @@
     {
       "number": "07",
       "badge": "badge-specialist",
-      "badgeLabel": "🏥 Healthcare Specialization",
+      "badgeLabel": "Healthcare Specialization",
       "title": "Healthcare AI, HIPAA Compliance & Clinical Systems",
       "duration": "Months 15–17 · Your niche. Your moat. Your irreplaceable advantage.",
       "modules": [
@@ -6285,7 +6285,7 @@
     {
       "number": "08",
       "badge": "badge-mastery",
-      "badgeLabel": "🚀 Career & Business",
+      "badgeLabel": "Career & Business",
       "title": "Career Preparation, Consulting & Launch",
       "duration": "Months 17–18 · Convert 18 months of work into income and opportunity.",
       "modules": [
@@ -6563,7 +6563,7 @@
               "icon": "file-text",
               "name": "Paul Graham — How to Get Consulting Clients",
               "meta": "paulgraham.com/wealth.html · Timeless consulting advice",
-              "url": "http://paulgraham.com/wealth.html"
+              "url": "https://paulgraham.com/wealth.html"
             },
             {
               "icon": "dollar-sign",

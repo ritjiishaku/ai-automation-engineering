@@ -120,7 +120,7 @@ export default function HomePage({ roadmapsMeta }) {
         <div className="home-hero-stats">
           <span>11 roadmaps</span>
           <span className="home-card-dot">·</span>
-          <span>130+ modules</span>
+          <span>230+ modules</span>
           <span className="home-card-dot">·</span>
           <span>$0 cost</span>
           <span className="home-card-dot">·</span>

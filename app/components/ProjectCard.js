@@ -74,7 +74,7 @@ export function NicheAccordion({ projects }) {
             <div className="accordion-body">
               <div className="accordion-body-inner">
                 <div className="accordion-card-wrapper">
-                  <ProjectCard project={niche} badge={`⬡ ${niche.name}`} badgeClass="proj-badge-health" />
+                  <ProjectCard project={niche} badge={niche.name} badgeClass="proj-badge-health" />
                 </div>
               </div>
             </div>

@@ -2,21 +2,23 @@
 
 Free, skills-first engineering roadmaps aligned to the **WEF Future of Jobs Report 2025**. No paywalls. No degrees required. All resources are free and remote-ready.
 
-**9 roadmaps** covering the highest-demand tech careers — each with 8+ phases, 100+ hand-curated resources, milestone projects, and a localStorage-based progress tracker.
+**11 roadmaps** covering the highest-demand tech careers — each with 8+ phases, 100+ hand-curated resources, milestone projects, and a localStorage-based progress tracker.
 
 ## Roadmaps
 
 | Roadmap | Focus | Resources |
 |---------|-------|-----------|
 | **AI Automation Engineering** | Python → Production AI, dual General & Healthcare tracks | 150+ |
-| **Full-Stack Engineering** | End-to-end web development | 120+ |
-| **Frontend Engineering** | React, performance, accessibility | 120+ |
-| **Backend Engineering** | APIs, databases, distributed systems | 120+ |
+| **AI Automation (Intensive)** | Rapid AI automation bootcamp | 30+ |
+| **Full-Stack Engineering** | End-to-end web development | 50+ |
+| **Frontend Engineering** | React, performance, accessibility | 60+ |
+| **Backend Engineering** | APIs, databases, distributed systems | 48+ |
 | **Cybersecurity Engineering** | Offensive & defensive security | 32+ |
 | **Data Engineering & Analytics** | Pipelines, warehousing, BI | 48+ |
 | **Cloud/DevOps Engineering** | AWS, CI/CD, infrastructure as code | 64+ |
 | **Fintech Engineering** | Payments, compliance, real-time systems | 40+ |
-| **Conversion & Growth Engineering** | Analytics, A/B testing, growth loops | 100+ |
+| **Conversion & Growth Engineering** | Analytics, A/B testing, growth loops | 65+ |
+| **Green Tech / Climate Tech** | Sustainable software, energy systems | 190+ |
 
 ## Tech Stack
 
@@ -78,6 +80,7 @@ skillplan/
 │       └── page.js            # Dynamic route for each roadmap
 ├── data/
 │   ├── ai.json
+│   ├── ai-automation.json
 │   ├── backend.json
 │   ├── cloud-devops.json
 │   ├── cybersecurity.json
@@ -85,6 +88,7 @@ skillplan/
 │   ├── fintech.json
 │   ├── frontend.json
 │   ├── fullstack.json
+│   ├── green-tech.json
 │   └── growth.json
 ├── public/
 │   └── og-image.png           # OpenGraph preview image
@@ -96,14 +100,14 @@ skillplan/
 
 ## Features
 
-- **10 career roadmaps** with structured phases, modules, and curated free resources
+- **11 career roadmaps** with structured phases, modules, and curated free resources
 - **Progress tracking** — check off completed resources, persisted in localStorage per roadmap
 - **Dark/light theme** — toggle with system preference detection
 - **Phase projects** — milestone projects at the end of each phase
 - **Capstone projects** — final projects for each roadmap
 - **Scroll animations** — fade-in effects on scroll using IntersectionObserver
 - **Responsive design** — mobile-first with hamburger nav, works from 360px to 1024px+
-- **Static generation** — all 9 roadmap pages are pre-rendered at build time
+- **Static generation** — all 11 roadmap pages are pre-rendered at build time
 - **OpenGraph / Twitter cards** — social media preview image support
 - **Accessible** — skip links, semantic HTML, keyboard navigation, focus management
 
@@ -152,11 +156,24 @@ Each roadmap JSON file follows this schema:
       }
     }
   ],
-  "capstone": {
-    "title": "Capstone Project",
-    "description": "Final project...",
-    "outcomes": ["Outcome 1"]
-  }
+  "projects": {
+    "general": {
+      "title": "General Capstone Project",
+      "description": "Final project for all learners...",
+      "outcomes": ["Outcome 1"]
+    },
+    "niches": {
+      "healthcare": {
+        "title": "Healthcare Capstone Project",
+        "description": "Domain-specific project...",
+        "outcomes": ["Outcome 1"]
+      }
+    }
+  },
+  "portfolioChecklist": [
+    "Portfolio item 1",
+    "Portfolio item 2"
+  ]
 }
 ```
 

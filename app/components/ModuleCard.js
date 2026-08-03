@@ -19,7 +19,7 @@ function ProjectModalContent({ projects }) {
       </div>
       {projects.general && (
         <div className="accordion-general">
-          <ProjectCard project={projects.general} badge="⬡ General" badgeClass="proj-badge-general" />
+          <ProjectCard project={projects.general} badge="General" badgeClass="proj-badge-general" />
         </div>
       )}
       {niches.length > 0 && <NicheAccordion projects={projects} />}

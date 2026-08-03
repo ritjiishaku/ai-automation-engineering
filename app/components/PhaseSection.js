@@ -20,7 +20,7 @@ function PhaseProjectContent({ phase }) {
       </div>
       {p.general && (
         <div className="accordion-general">
-          <ProjectCard project={p.general} badge="⬡ General" badgeClass="proj-badge-general" />
+          <ProjectCard project={p.general} badge="General" badgeClass="proj-badge-general" />
         </div>
       )}
       {niches.length > 0 && <NicheAccordion projects={p} />}
